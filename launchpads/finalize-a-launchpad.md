@@ -8,7 +8,7 @@
 
 ![update-launchpad](../.gitbook/assets/launchpad/Snipaste_2022-05-08_13-58-08.png)
 
-4. 在您的预售明细中，您可以看到“最终确认发射”按钮可点击状态。点击发射
+4. 在您的预售明细中，您可以看到“最终确认发射”按钮变成可点击状态。点击发射
 
 ![update-launchpad](../.gitbook/assets/launchpad/finalized.png)
 
