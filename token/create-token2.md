@@ -95,4 +95,4 @@ https://TokenTool.App 提供了简单的可视化页面化的形式创建ERC20�
 > 
 > 引用地址
 > [https://www.tokentool.app/createToken/v2](https://www.tokentool.app/createToken/v2) 创建代币地址
-> [https://youtu.be/zPVY_oZH5qo](https://youtu.be/zPVY_oZH5qo) 油管教学视频
+> [https://youtu.be/zPVY_oZH5qo](https://youtu.be/zPVY_oZH5qo)  油管教学视频
