@@ -46,13 +46,15 @@
 * [抢预售](scientist/grabPreSale.md)
 * [挂单模式](scientist/commissionOrder.md)
 * [unicrypt抢购](scientist/unicrypt.md)
-* [最新汽油费](zh/gasPrice.md)
-* [批量发送令牌](zh/multiSender.md)
-* [批量检测钱包余额](zh/batchCheckBalance.md)
-* [批量生成钱包](zh/createWallet.md)
-* [令牌授权查询](zh/batch-approve.md)
-* [令牌批量归集](zh/batchCollection.md)
-* [令牌持有人扫描](zh/tokenHoldScan.md)
+
+## 批量操作 <a href="#multi" id="multi"></a>
+
+* [批量发送令牌](multi/multiSender.md)
+* [批量检测钱包余额](multi/batchCheckBalance.md)
+* [批量生成钱包](multi/createWallet.md)
+* [令牌批量授权查询](multi/batch-approve.md)
+* [令牌批量归集](multi/batchCollection.md)
+* [令牌持有人扫描](multi/tokenHoldScan.md)
 
 ## 其它 <a href="#other" id="other"></a>
 
@@ -60,6 +62,7 @@
 * [代币授权](other/dai-bi-shou-quan.md)
 * [靓号地址生成](other/jing-hao-di-zhi-sheng-cheng.md)
 * [IPFS](other/ipfs.md)
+* [最新汽油费](zh/gasPrice.md)
 
 ## 常见问题/常见错误 <a href="#common-problem" id="common-problem"></a>
 
