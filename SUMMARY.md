@@ -55,6 +55,7 @@
 * [令牌批量授权查询](multi/batch-approve.md)
 * [令牌批量归集](multi/batchCollection.md)
 * [令牌持有人扫描](multi/tokenHoldScan.md)
+* [批量兑换(Swap)](multi/batchSwap.md)
 
 ## 其它 <a href="#other" id="other"></a>
 
