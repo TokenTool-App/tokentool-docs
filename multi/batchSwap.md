@@ -17,4 +17,4 @@
 
 3. 从按钮部分的位置选择您要交易的代币，默认选择为BNB。
 
-<img src="../.gitbook/assets/batchSwap/Snipaste_2022-12-20_18-10-40.png" alt="batch-swap" style="zoom:60%;" />
+<img src="../.gitbook/assets/batchSwap/Snipaste_2022-12-20_18-10-40.png" alt="batch-swap" style="zoom:80%;" />
