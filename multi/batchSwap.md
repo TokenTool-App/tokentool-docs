@@ -16,6 +16,7 @@
 2. 如果您还没链接钱包，在您的右上角点击链接钱包。也可以通过[快捷网络添加](https://tokentool.app/other/chainList)。快速的链接与区块链网络链接。
 
 3. 从按钮部分的位置选择您要交易的代币，默认选择为BNB。
+
 ![batch-swap](../.gitbook/assets/batchSwap/Snipaste_2022-12-20_18-10-40.png)
 
 **注意：（如上图所示）我们将上方的代币称为token0，下方的代币称为token1，无论您选择哪种代币，都是将token0 兑换成 token1。不管您是买还是卖都将设置好代币的顺序。以免兑换失败！**
@@ -23,7 +24,6 @@
 4. 如图所示，在选择您要交易的代币。接下来，通过输入框输点击，为您的**token0**代币输入1个金额。您的**token1**代币金额将自动估算，始终要记住通过token0=>token1的兑换顺序。
 
 ![batch-swap](../.gitbook/assets/batchSwap/Snipaste_2022-12-20_18-43-34.png)
-
 
 
 ### 设置参数说明
