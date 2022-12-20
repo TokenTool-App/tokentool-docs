@@ -57,14 +57,19 @@
 
 ![batch-swap](../.gitbook/assets/batchSwap/Snipaste_2022-12-20_20-41-14.png)
 
-**串行执行：**所有选中的地址会有序的进行交易，将按照从上往下的顺序一条条执行。
+**串行执行：** 所有选中的地址会有序的进行交易，将按照从上往下的顺序一条条执行。
 
 
 
 > 引用地址：
 >
 > [https://tokentool.app/batchSwap/bsc](https://tokentool.app/batchSwap/bsc) 批量Swap兑换
+> 
 > [https://tokentool.app/oneToMore/bsc](https://tokentool.app/oneToMore/bsc) 批量发送代币
+> 
 > [https://tokentool.app/batchCollection/bsc](https://tokentool.app/batchCollection/bsc) 批量归集代币
+> 
 > [https://tokentool.app/createWallet/bsc](https://tokentool.app/createWallet/bsc) 批量创建钱包
+> 
 > [https://youtu.be/QfqfRCVvPc8](https://youtu.be/QfqfRCVvPc8) 视频教程
+> 
