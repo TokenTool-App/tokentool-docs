@@ -62,7 +62,7 @@
 
 ---
 
-**温馨提示：** 如果您想让自己的代币头正确的图标logo 可通过[以下链接](https://forms.gle/ZipsociVg2KPHRLd6)申请上头像logo。
+**温馨提示：** 如果您想让自己的代币有正确的图标logo 可通过[以下链接](https://forms.gle/ZipsociVg2KPHRLd6)申请上头像logo。
 
 [https://forms.gle/ZipsociVg2KPHRLd6](https://forms.gle/ZipsociVg2KPHRLd6)
 
