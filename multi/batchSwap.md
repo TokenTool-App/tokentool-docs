@@ -60,6 +60,14 @@
 **串行执行：** 所有选中的地址会有序的进行交易，将按照从上往下的顺序一条条执行。
 
 
+---
+
+**温馨提示：** 如果您想让自己的代币头正确的图标logo 可通过[以下链接](https://forms.gle/ZipsociVg2KPHRLd6)申请上头像logo。
+
+[https://forms.gle/ZipsociVg2KPHRLd6](https://forms.gle/ZipsociVg2KPHRLd6)
+
+---
+
 
 > 引用地址：
 >
@@ -72,4 +80,3 @@
 > [https://tokentool.app/createWallet/bsc](https://tokentool.app/createWallet/bsc) 批量创建钱包
 > 
 > [https://youtu.be/QfqfRCVvPc8](https://youtu.be/QfqfRCVvPc8) 视频教程
-> 
