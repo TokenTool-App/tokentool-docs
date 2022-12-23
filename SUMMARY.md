@@ -61,7 +61,8 @@
 
 * [单位转换](other/dan-wei-zhuan-huan.md)
 * [代币授权](other/dai-bi-shou-quan.md)
-* [靓号地址生成](other/jing-hao-di-zhi-sheng-cheng.md)
+* [靓号地址生成](other/vanityAddress.md)
+* [靓号合约生成](other/vanityContract.md)
 * [IPFS](other/ipfs.md)
 * [最新汽油费](zh/gasPrice.md)
 
