@@ -5,7 +5,7 @@
 
 1. 打开[靓号合约生成](https://tokentool.app/other/vanityContractGenerator)地址：[https://tokentool.app/other/vanityContractGenerator](https://tokentool.app/other/vanityContractGenerator)
 
-2. 输入您要生成的靓号字符串内容**（温馨提示：在页面加载完成后，建议断开网络或关闭WI-FI离线生成）**
+2. 输入您要生成的靓号字符串内容 **（温馨提示：在页面加载完成后，建议断开网络或关闭WI-FI离线生成）**
 
 
 ![vanityContract](../.gitbook/assets/other/vanity/Snipaste_2022-12-23_17-12-18.png)
