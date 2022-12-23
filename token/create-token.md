@@ -45,7 +45,7 @@ https://TokenTool.App 提供了简单的可视化页面化的形式创建标准�
 
 ## 通过uniswap添加流动性
 
-上面我们将如何通过可视化页面进行一键式的创建token。接下来，如果将创建好的token，进行添加到uniswap中，让更多的用户可以在swap上进行交易买/卖。
+上面我们将如何通过可视化页面进行一键式的创建token。接下来，如何将创建好的token，进行添加到uniswap中，让更多的用户可以在swap上进行交易买/卖。
 
 第一步打开[https://app.uniswap.org/#/pool/v2](https://app.uniswap.org/#/pool/v2) 打开流动池。
 

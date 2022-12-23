@@ -11,7 +11,7 @@
 1. 链接你的钱包。
 2. 前往[https://tokentool.app/lock/create](https://tokentool.app/lock/create)
 3. 输入您的流动性令牌合约地址后，将会显示您的代币池子信息和余额（如图 TTT-WBNB交易对，交易所，余额等信息）。
-    **tips：如果不知道自己代币的LP地址，可以通过[如果查询LP地址](https://docs.tokentool.app/common-problem/how-to-find-liquidity)查找LP地址。**
+    **tips：如果不知道自己代币的LP地址，可以通过[如何查询LP地址](https://docs.tokentool.app/common-problem/how-to-find-liquidity)查找LP地址。**
 
 ![lock-token](../.gitbook/assets/lock/Snipaste_2022-05-08_23-15-41.png)
 

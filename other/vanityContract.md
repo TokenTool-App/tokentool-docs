@@ -1,7 +1,7 @@
 # 靓号合约地址生成
 
-如果生成一个靓号的合约地址。
-查看以下步骤，了解如果使用PC电脑端通过TokenTool的合约靓号生成器，生成靓号合约地址。
+如何生成一个靓号的合约地址，例如：``0x0000000000004946c0e9f43f4dee607b0ef1fa1c`` 。
+查看以下步骤，了解如何使用PC电脑端通过TokenTool平台的合约靓号生成器，生成靓号合约地址。
 
 1. 打开[靓号合约生成](https://tokentool.app/other/vanityContractGenerator)地址：[https://tokentool.app/other/vanityContractGenerator](https://tokentool.app/other/vanityContractGenerator)
 
