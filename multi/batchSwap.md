@@ -2,7 +2,7 @@
 
 与大多数交易所相比，在 TokenTool Swap 上进行交易非常容易。您不会被滑点所限制，所有计算都为您处理成最优的。
 
-视频教程：[https://youtu.be/QfqfRCVvPc8](https://youtu.be/QfqfRCVvPc8)
+视频教程：
 
 ### 开始交易
 
@@ -79,4 +79,4 @@
 > 
 > [https://tokentool.app/createWallet/bsc](https://tokentool.app/createWallet/bsc) 批量创建钱包
 > 
-> [https://youtu.be/QfqfRCVvPc8](https://youtu.be/QfqfRCVvPc8) 视频教程
+>  视频教程
