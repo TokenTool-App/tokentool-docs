@@ -149,3 +149,10 @@
 - **回流自动加池子的这部分LP到哪去了呢？**
   - 解答：回流到池子后产生的`LP`自动发放到`营销钱包`。
 
+
+
+> 引用地址
+
+> 创建代币地址：[https://www.tokentool.app/createToken/v3](https://www.tokentool.app/createToken/v3) 
+
+> YouTube教学视频：[https://youtu.be/CePxDWuOyd8](https://youtu.be/CePxDWuOyd8)  

@@ -137,8 +137,8 @@
 
 
 
-> 原文链接：[https://docs.tokentool.app/dai-bi/create-token2](https://docs.tokentool.app/dai-bi/create-token2)
-> 
 > 引用地址
-> [https://www.tokentool.app/createToken/v2](https://www.tokentool.app/createToken/v2) 创建代币地址
-> [https://youtu.be/zPVY_oZH5qo](https://youtu.be/zPVY_oZH5qo)  油管教学视频
+
+> 创建代币地址：[https://www.tokentool.app/createToken/v2](https://www.tokentool.app/createToken/v2) 
+
+> YouTube教学视频：[https://youtu.be/zPVY_oZH5qo](https://youtu.be/zPVY_oZH5qo)  

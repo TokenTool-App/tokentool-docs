@@ -99,3 +99,5 @@
 
 > 原文链接：[https://docs.tokentool.app/token/create-token](https://docs.tokentool.app/token/create-token)
 
+>视频教程链接： [https://youtu.be/K0PExlXV0LI](https://youtu.be/K0PExlXV0LI)
+
