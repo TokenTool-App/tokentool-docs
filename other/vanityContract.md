@@ -35,6 +35,14 @@
 
 **温馨提示 ：您可以使用该地址部署合约后，立马将合约的拥有权转移至大号地址并将大号地址加入白名单。**
 
+**同时使用该地址在不同链上第一次发行代币，你将会得到相同的合约地址。**
+
+**比如我在BSC链发币后得到：`0x0000000000004946c0e9f43f4dee607b0ef1fa1c` 地址。**
+
+**同样我在 ETH链 第一次发行代币也讲会得到相同地址，其他链也类似。**
+
+
+
 
 
 
@@ -42,10 +50,12 @@
 > 引用地址：
 >
 > [https://tokentool.app/other/vanityContractGenerator](https://tokentool.app/other/vanityContractGenerator) 合约靓号生成
-> 
+>
 > [https://tokentool.app/createToken/bsc](https://tokentool.app/createToken/bsc) 创建代币V1版本
-> 
+>
 > [https://tokentool.app/createToken/v2](https://tokentool.app/createToken/v2) 创建代币V2版本
-> 
+>
 > [https://tokentool.app/createToken/v3](https://tokentool.app/createToken/v3) 创建代币V3版本
+>
+> [https://tokentool.app/createToken/v4](https://tokentool.app/createToken/v4) 创建代币V4版本
 
