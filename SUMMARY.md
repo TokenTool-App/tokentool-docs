@@ -24,9 +24,11 @@
 
 ## 代币 <a href="#token" id="token"></a>
 
-* [创建带有黑名单/增发令牌](token/create-token.md)
-* [创建手续费机制令牌](token/create-token2.md)
-* [创建婴儿令牌](token/create-token3.md)
+* [标准ERC20代币](token/create-token.md)
+* [黑名单/增发/假权限代币-V1](token/create-token.md)
+* [双营销/回流/限购代币-V2](token/create-token2.md)
+* [持币分红/营销/回流代币-V3](token/create-token3.md)
+* [加池分红/营销/回流代币-V4](token/create-token4.md)
 
 ## NFT
 
