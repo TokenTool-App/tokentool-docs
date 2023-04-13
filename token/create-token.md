@@ -9,7 +9,7 @@
 > **手机用户也可以在 `TP钱包`-发现-输入官网链接 进行操作.**
 
 
-> **视频教程链接： [https://youtu.be/K0PExlXV0LI](https://youtu.be/K0PExlXV0LI) **
+> **视频教程链接： [https://youtu.be/K0PExlXV0LI](https://youtu.be/K0PExlXV0LI)**
 
 
 ### 机制说明
