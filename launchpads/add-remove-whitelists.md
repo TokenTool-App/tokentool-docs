@@ -53,7 +53,9 @@ You can add the wallet addresses of pre-sale participants at any time before or 
 After clicking "Add User to Whitelist", you will see a popup box. Here you can add addresses to the whitelist. Addresses are wrapped in newlines (one address per line), without commas, the following list can be used as an example:
 
 0x34E7f6A4d0BB1fa7aFe548582c47Df337FC337E6
+
 0xd8Ebc66f0E3D638156D6F5eFAe9f43B1eBc113B1
+
 0x968136BB860D9534aF1563a7c7BdDa02B1A979C2
 
 ![add-remove-whitelists](../.gitbook/assets/launchpad/Snipaste_2022-05-08_15-04-02.png)
@@ -75,7 +77,9 @@ You can remove the wallet addresses of presale participants by clicking "Add use
 After clicking "Add User to Whitelist", you will see a popup box. Here you can delete any addresses you don't need, but remember that addresses are separated by new lines and without commas. For example:
 
 0x34E7f6A4d0BB1fa7aFe548582c47Df337FC337E6
+
 0xd8Ebc66f0E3D638156D6F5eFAe9f43B1eBc113B1
+
 0x968136BB860D9534aF1563a7c7BdDa02B1A979C2
 
 Paste the above address into the pop-up box and click OK

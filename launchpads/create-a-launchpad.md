@@ -3,7 +3,7 @@
 ## Step 1: Validate the token
 1. Link your wallet.
 2. Go to [https://tokentool.app/launchpad/create](https://tokentool.app/launchpad/create)
-3. Enter your token address (if you already have one), if not, you can create your token through [one-click issuance] (https://tokentool.app/createToken/V2)
+3. Enter your token address (if you already have one), if not, you can create your token through [one-click issuance](https://tokentool.app/createToken/V2)
 4. After entering the token, the token information will be displayed. After clicking [Authorize], you can enter the next step
 
 ![create-luanchpad](../.gitbook/assets/launchpad/Snipaste_2022-05-05_22-05-50.png)
