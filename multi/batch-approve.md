@@ -1,57 +1,56 @@
-# 批量取消授权
+# Batch deauthorization
 
-区块链在去中心领域越来越成熟，也越来越多的去中心话应用在区块链上发展，如近年来DeFi领域的火爆，主要的 DeFi 应用包括 ERC20 代币的借贷、质押和交易。若想在 [Uniswap](https://uniswap.org/)、[Aave](https://aave.com/) 和 [Yearn](https://yearn.finance/) 等DeFi 协议上使用 ERC20 代币，你需要授权 dApp 来使用这些代币。这就是所谓的 _**ERC20 授权**_ 。这些授权对于 DeFi 平台的运作来说必不可少，但是如果不加以控制，那将是非常危险的。
+The blockchain is becoming more and more mature in the decentralized field, and more and more decentralized applications are developed on the blockchain. For example, the DeFi field has become popular in recent years. The main DeFi applications include ERC20 token lending, pledge and trade. If you want to use ERC20 on DeFi protocols such as [Uniswap](https://uniswap.org/), [Aave](https://aave.com/) and [Yearn](https://yearn.finance/) Tokens, you need to authorize the dApp to use these tokens. This is called _**ERC20 Authorization**_. These authorizations are essential to the functioning of DeFi platforms, but can be very dangerous if left unchecked.
 
 ![approve](../.gitbook/assets/approve.png)
 
-## ERC20 授权流程
+## ERC20 authorization process
 
-首先我们先来看一张图片，授权的流程是怎么样的。A用户在访问dApp时进行把USDT的代币授权给另外一个合约\(不安全\)或个人地址，这个时候先相当于您把U授权给目标一定的额度去操作你的U。这是一个很危险的情况，在近段时间中有很多类似盗U事件，就类似使用此方法，很多用户缺少区块链知识，以为只是一个授权操作，没有转账给对方觉的没啥事。
+First of all, let's take a look at a picture, what is the authorization process like. User A authorizes USDT tokens to another contract \(unsafe\) or personal address when accessing the dApp. At this time, it is equivalent to authorizing U to the target with a certain amount to operate your U. This is a very dangerous situation. In the recent period, there have been many incidents similar to stealing U. Similar to using this method, many users lack blockchain knowledge and think that it is just an authorized operation.
 
-## 盗U案例分析
+## Pirate U case analysis
 
-1. 攻击者伪造一个空头活动的页面，通过媒体等多渠道散发信息
-2. 用户通过页面点击领取空头按钮，此时调用合约`approve` 授权，授权对象是攻击者地址，授权额度为无限
-3. 攻击者通过`transferFrom` 转走用户钱包中USDT。
+1. The attacker forges an empty activity page and distributes information through multiple channels such as the media
+2. The user clicks the button to receive short positions through the page, and at this time the contract `approve` is called to authorize, the authorized object is the attacker's address, and the authorized amount is unlimited
+3. The attacker transfers the USDT in the user's wallet through `transferFrom`.
 
-   ![Phishing](../.gitbook/assets/Snipaste_2021-09-29_14-49-29.png)![Phishing](../.gitbook/assets/Snipaste_2021-09-29_14-51-41.png)
+    ![Phishing](../.gitbook/assets/Snipaste_2021-09-29_14-49-29.png)![Phishing](../.gitbook/assets/Snipaste_2021-09-29_14-51-41.png)
 
-在图片中我们可以看到调用授权信息\(使用您的USDT\)
+In the picture we can see the call authorization information\(use your USDT\)
 
-0x095ea7b3000000000000000000000000 （调用授权函数
+0x095ea7b3000000000000000000000000 (call authorization function
 
-57ce3d5cd8685bed28ae71f3a5cfd3b42464fe0b （授权给攻击者地址
+57ce3d5cd8685bed28ae71f3a5cfd3b42464fe0b (authorized to attacker address
 
-0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff （授权额度无限大
+0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 
-当前确定授权后，`57ce3d5cd8685bed28ae71f3a5cfd3b42464fe0b` 攻击者就可以将你的USDT全部转走，只要你有U 他就能转走。如果地址没有及时取消授权的话，将会带来跟多的损失，下面教大家如何检查钱包地址授权了哪些合约和地址，定期取消授权过期的合约
+After the current authorization is confirmed, `57ce3d5cd8685bed28ae71f3a5cfd3b42464fe0b` attacker can transfer all your USDT away, as long as you have U, he can transfer away. If the address does not cancel the authorization in time, it will bring more losses. The following will teach you how to check which contracts and addresses are authorized by the wallet address, and regularly cancel the expired contracts.
 
-## 解决方法
+## Solution
 
-使用币工具 [https://TokenTool.App](https://tokentool.app) 或者 [https://TokenTool.App/approve/eth](https://tokentool.app/approve/eth) 进行查询地址授权信息。
+Use Token Tool [https://TokenTool.App](https://tokentool.app) or [https://TokenTool.App/approve/eth](https://tokentool.app/approve/eth) to query Address authorization information.
 
 ![cointool](../.gitbook/assets/Snipaste_2021-09-29_15-10-52.png)
 
-1. 链接钱包，地址钱包地址进行扫描 （如没有授权过合约  提示：你没有授权代币给合约过，很棒!
+1. Link the wallet, scan the wallet address (If you have not authorized the contract, prompt: you have not authorized tokens to the contract, great!
 
 ![cointool](../.gitbook/assets/Snipaste_2021-09-29_15-13-14.png)
 
-1. 扫描出授权的合约信息（⚠️扫描地址不是当前用户钱包地址，则无法取消授权
+1. Scan out the authorized contract information (⚠️The scanned address is not the current user wallet address, and the authorization cannot be canceled
 
 ![cointool](../.gitbook/assets/Snipaste_2021-09-29_15-15-51.png)
 
 ```text
-// 取消授权本质还是调用合约授权，授权0的额度给目标地址
-0x095ea7b3 // 授权方法
-0000000000000000000000001bb7995f64c393a73a480ec7400bb52c335a4809 // 授权地址
-0000000000000000000000000000000000000000000000000000000000000000 // 授权额度(0)
+// The essence of canceling the authorization is to call the contract authorization, and authorize the amount of 0 to the target address
+0x095ea7b3 // authorization method
+0000000000000000000000001bb7995f64c393a73a480ec7400bb52c335a4809 // authorized address
+00000000000000000000000000000000000000000000000000000000000000000 // authorized amount (0)
 ```
 
-> 原文链接：[https://docs.tokentool.app/learn/batch-approve](https://github.com/TokenTool-App/tokentool-docs/blob/main/learn/batch-approve.md)
+> Original link: [https://docs.tokentool.app/learn/batch-approve](https://github.com/TokenTool-App/tokentool-docs/blob/main/learn/batch-approve.md)
 >
-> 引用参考知识
+> Citing reference knowledge
 >
-> [https://medium.com/zengo/unicats-go-phishing-eaf39ff9da64](https://medium.com/zengo/unicats-go-phishing-eaf39ff9da64) UniCats钓鱼分析
+> [https://medium.com/zengo/unicats-go-phishing-eaf39ff9da64](https://medium.com/zengo/unicats-go-phishing-eaf39ff9da64) UniCats Phishing Analysis
 >
-> [https://www.lianzixun.cn/news/9562620.html](https://www.lianzixun.cn/news/9562620.html) 转账授权钓鱼控制你的钱包
-
+> [https://www.lianzixun.cn/news/9562620.html](https://www.lianzixun.cn/news/9562620.html) Transfer authorization phishing to control your wallet

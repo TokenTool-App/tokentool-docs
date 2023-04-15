@@ -1,44 +1,43 @@
-# 创建ERC20令牌锁
+# create ERC20 token lock
 
-## 什么是令牌锁？
+## What is a token lock?
 
-代币锁定允许 DeFi 项目设置自定义的代币锁定参数。
+Token Locking allows DeFi projects to set custom token locking parameters.
 
-通过使用 TokenToolLocks 锁定团队成员的代币和国库，项目可以在他们的社区中灌输信任，并表明他们是长期参与的。在锁定到期之前无法释放时间锁定的代币，因此投资者可以确信团队不会在市场上倾销他们的所有代币（又名“退出骗局”）。
-
-
-
-## 为什么令牌锁很重要？
-
-*项目可以将一定比例的预挖代币供应或团队拥有的代币锁定到我们的时间锁定的去中心化智能合约保险库中。*
-
-在锁定期结束之前，项目无法访问代币。这样社区和投资者就可以放心，代币在合同期内不会被团队大量抛售，即所谓的退出骗局。
-
-与大多数代币发行相比，这是一项巨大的创新，在大多数代币发行中，项目可能会避免履行其承诺并恶意出售其所有代币，从而使持有者、质押者和投资者的代币价格接近 0 美元。
+By using TokenToolLocks to lock team members' tokens and treasury, projects can instill trust in their communities and show they are engaged for the long term. Time-locked tokens cannot be released until the lock expires, so investors can be confident that the team won't dump all their tokens on the market (aka "exit scam").
 
 
 
-## 如何创建我的令牌锁?
+## Why is token lock important?
 
-导航到 [https://tokentool.app/lock/create](https://tokentool.app/lock/create) 并按照以下步骤简单程序进行操作：
+**Projects can lock a percentage of the pre-mined token supply or team-owned tokens into our time-locked decentralized smart contract vault. **
 
-1. 链接你的钱包。
-2. 前往[https://tokentool.app/lock/create](https://tokentool.app/lock/create)
-3. 输入您的令牌合约地址后，将会显示您的代币信息与代币余额。
-4. 输入您要锁定的令牌代币余额数量，并选择锁定直到某个时间点解锁代币时间
+Projects cannot access tokens until the lock-up period expires. In this way, the community and investors can rest assured that the tokens will not be dumped by the team during the contract period, the so-called exit scam.
 
-如下例子：将所有代币余额锁定直到 2025-01-01 00:00:00 时间点解锁。
+This is a huge innovation compared to most token offerings, where projects may avoid fulfilling their promises and sell all their tokens in bad faith, leaving holders, stakers and investors The price of the tokens of the latter is close to $0.
+
+
+
+## How do I create my token lock?
+
+Navigate to [https://tokentool.app/lock/create](https://tokentool.app/lock/create) and follow this simple procedure:
+
+1. Link your wallet.
+2. Go to [https://tokentool.app/lock/create](https://tokentool.app/lock/create)
+3. After entering your token contract address, your token information and token balance will be displayed.
+4. Enter the amount of token token balance you want to lock and select Lock until a certain point in time to unlock the token time
+
+The following example: lock all token balances until unlocked at 2025-01-01 00:00:00.
 
 ![lock-token](../.gitbook/assets/lock/Snipaste_2022-05-08_23-15-40.png)
 
-5. 点击授权， MetaMask 现在会要求您确认交易。如果您同意，请单击“确认”按钮以完成该过程。
-6. 完成授权后，点击锁定按钮，MetaMask 现在会要求您确认交易。
+5. Click Authorize, MetaMask will now ask you to confirm the transaction. If you agree, click the "Confirm" button to complete the process.
+6. After completing the authorization, click the lock button, MetaMask will now ask you to confirm the transaction.
 
 
 
-注意点：
+be careful:
 
-如果您的代币合约有持币分红，或者持币奖励，转账限额等机制，一定要有拆除排除限制的操作。
+If your token contract has mechanisms such as dividends for holding coins, or rewards for holding coins, transfer limits, etc., there must be an operation to remove and exclude restrictions.
 
-请排除TokenToolLock的锁仓合约地址，您可以在黄色提示中看到 TokenToolLock的锁仓合约地址。
-
+Please exclude the lock contract address of TokenToolLock, you can see the lock contract address of TokenToolLock in the yellow prompt.

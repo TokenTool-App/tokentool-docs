@@ -1,75 +1,75 @@
-# Table of contents
+# Table of Contents
 
-* [TokenTool 帮助文档](README.md)
-* [联系我们](zh/contact-us.md)
-* [社交链接](zh/social-links.md)
-* [服务费用](zh/service-fees.md)
+* [TokenTool Documentation](README.md)
+* [Contact Us](zh/contact-us.md)
+* [Social Links](zh/social-links.md)
+* [Service Fees](zh/service-fees.md)
 
-## 启动板 <a href="#launchpads" id="launchpads"></a>
+## Launchpads <a href="#launchpads" id="launchpads"></a>
 
-* [创建启动板](launchpads/create-a-launchpad.md)
-* [更新启动板](launchpads/update-a-launchpad.md)
-* [完成启动板](launchpads/finalize-a-launchpad.md)
-* [添加/删除白名单](launchpads/add-remove-whitelists.md)
-* [如何购买预售](launchpads/buy-launchpad.md)
-* [如何领取代币](launchpads/token-launchpad.md)
-* [如何撤回您的捐款](launchpads/withdraw-launchpad.md)
-* [紧急撤回资金](launchpads/regret-launchpad.md)
+* [Create a Launchpad](launchpads/create-a-launchpad.md)
+* [Update a Launchpad](launchpads/update-a-launchpad.md)
+* [Finalize a Launchpad](launchpads/finalize-a-launchpad.md)
+* [Add/Remove Whitelists](launchpads/add-remove-whitelists.md)
+* [How to Buy Presale](launchpads/buy-launchpad.md)
+* [How to Claim Tokens](launchpads/token-launchpad.md)
+* [How to Withdraw Your Donation](launchpads/withdraw-launchpad.md)
+* [Emergency Fund Withdrawal](launchpads/regret-launchpad.md)
 
-## 创建挖矿 <a href="#mining" id="mining"></a>
+## Mining <a href="#mining" id="mining"></a>
 
-* [创建挖矿池](mining/create-a-mining.md)
-* [查看挖矿](mining/mining-list.md)
-* [质押挖矿](mining/mining-detail.md)
+* [Create a Mining Pool](mining/create-a-mining.md)
+* [View Mining](mining/mining-list.md)
+* [Stake Mining](mining/mining-detail.md)
 
-## 代币 <a href="#token" id="token"></a>
+## Tokens <a href="#token" id="token"></a>
 
-* [标准ERC20代币](token/standard-token.md)
-* [黑名单/增发/假权限代币-V1](token/create-token.md)
-* [双营销/回流/限购代币-V2](token/create-token2.md)
-* [持币分红/营销/回流代币-V3](token/create-token3.md)
-* [加池分红/营销/回流代币-V4](token/create-token4.md)
+* [Standard ERC20 Tokens](token/standard-token.md)
+* [Blacklist/Inflation/Fake Permission Tokens-V1](token/create-token.md)
+* [Dual Marketing/Referral/Limit Purchase Tokens-V2](token/create-token2.md)
+* [Holding Dividend/Marketing/Referral Tokens-V3](token/create-token3.md)
+* [Pool-based Dividend/Marketing/Referral Tokens-V4](token/create-token4.md)
 
 ## NFT
 
-* [NFT批量发送](zh/nft-multiSender.md)
-* [NFT授权](zh/nft-approval.md)
-* [NFT归集](zh/nft-collection.md)
+* [Batch Send NFT](zh/nft-multiSender.md)
+* [NFT Authorization](zh/nft-approval.md)
+* [NFT Collection](zh/nft-collection.md)
 
-## 令牌锁 <a href="#lock" id="lock"></a>
+## Token Locks <a href="#lock" id="lock"></a>
 
-* [创建你的令牌锁](lock/lock-create-token.md)
-* [创建你的流动性锁](lock/lock-create-liquidity.md)
-* [解锁LP池子或代币](lock/lock-liquidity.md)
+* [Create Your Token Lock](lock/lock-create-token.md)
+* [Create Your Liquidity Lock](lock/lock-create-liquidity.md)
+* [Unlock LP Pool or Tokens](lock/lock-liquidity.md)
 
-## 科学家模块 <a href="#scientist" id="scientist"></a>
+## Scientist Module <a href="#scientist" id="scientist"></a>
 
-* [抢购模式](scientist/panicBuying.md)
-* [抢预售](scientist/grabPreSale.md)
-* [挂单模式](scientist/commissionOrder.md)
-* [unicrypt抢购](scientist/unicrypt.md)
+* [Panic Buying Mode](scientist/panicBuying.md)
+* [Grab Presale](scientist/grabPreSale.md)
+* [Commission Order Mode](scientist/commissionOrder.md)
+* [Unicrypt Panic Buy](scientist/unicrypt.md)
 
-## 批量操作 <a href="#multi" id="multi"></a>
+## Batch Operations <a href="#multi" id="multi"></a>
 
-* [批量发送令牌](multi/multiSender.md)
-* [批量检测钱包余额](multi/batchCheckBalance.md)
-* [批量生成钱包](multi/createWallet.md)
-* [令牌批量授权查询](multi/batch-approve.md)
-* [令牌批量归集](multi/batchCollection.md)
-* [令牌持有人扫描](multi/tokenHoldScan.md)
-* [批量兑换(Swap)](multi/batchSwap.md)
+* [Batch Send Tokens](multi/multiSender.md)
+* [Batch Check Wallet Balance](multi/batchCheckBalance.md)
+* [Batch Generate Wallets](multi/createWallet.md)
+* [Token Batch Authorization Query](multi/batch-approve.md)
+* [Token Batch Collection](multi/batchCollection.md)
+* [Token Holder Scanning](multi/tokenHoldScan.md)
+* [Batch Swap](multi/batchSwap.md)
 
-## 其它 <a href="#other" id="other"></a>
+## Other <a href="#other" id="other"></a>
 
-* [单位转换](other/dan-wei-zhuan-huan.md)
-* [代币授权](other/dai-bi-shou-quan.md)
-* [靓号地址生成](other/vanityAddress.md)
-* [靓号合约生成](other/vanityContract.md)
+* [Unit Conversion](other/dan-wei-zhuan-huan.md)
+* [Token Authorization](other/dai-bi-shou-quan.md)
+* [Vanity Address Generation](other/vanityAddress.md)
+* [Vanity Contract Generation](other/vanityContract.md)
 * [IPFS](other/ipfs.md)
-* [最新汽油费](zh/gasPrice.md)
+* [Latest Gas Price](zh/gasPrice.md)
 
-## 常见问题/常见错误 <a href="#common-problem" id="common-problem"></a>
+## FAQs/Common Errors <a href="#common-problem" id="common-problem"></a>
 
-* [如何通过TP钱包发币](common-problem/tpwallet-createToken.md)
-* [如何查询池子(LP)地址](common-problem/how-to-find-liquidity.md)
+* [How to Create Tokens via TP Wallet](common-problem/tpwallet-createToken.md)
+* [How to Find Liquidity Pool (LP) Addresses](common-problem/how-to-find-liquidity.md)
 

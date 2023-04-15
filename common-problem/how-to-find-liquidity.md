@@ -1,57 +1,51 @@
-# 如何查找池子(LP)合约地址
-如何查询自己的ERC20代币的池子(LP)的地址，我们添加流动性后，往往需要去锁池子，如何快速的通过一下方法查询到流动性池子的合约地址。
+# How to find the contract address of a liquidity pool (LP)
 
-## 方法1:通过添加流动性记录查询
-1. 通过区块链浏览器查询添加流动性交易记录
+When we add liquidity to a pool, we often need to know the contract address of the LP to lock the pool. Here are some methods to quickly find the LP contract address of your ERC20 token.
 
-2. 例如添加流动性的交易Hash 如（  [https://testnet.bscscan.com/tx/0xdfd9412767cba1f16051850abd4d6685deb9d655f308624f8a65a0891ed87077](https://testnet.bscscan.com/tx/0xdfd9412767cba1f16051850abd4d6685deb9d655f308624f8a65a0891ed87077)）
+## Method 1: Search by adding liquidity record
 
-3. 例子中添加了5个BNB和1,000,000,000,000 个Doge代币，加入到Pancake交易所中。
-
-4. 最终拿到了2,236,067.977....个LP 令牌余额。
-
-![add-liquidity](../.gitbook/assets/common-problem/Snipaste_2022-05-16_15-31-22.png)
-
-5. 点击Pancake LPs 令牌合约地址。
-6. 进入Pancake LPs 令牌合约明细页面（如下图）
+1. Use a blockchain explorer to search for the transaction record of adding liquidity.
+2. For example, use the transaction hash of adding liquidity, such as ( [https://testnet.bscscan.com/tx/0xdfd9412767cba1f16051850abd4d6685deb9d655f308624f8a65a0891ed87077](https://testnet.bscscan.com/tx/0xdfd9412767cba1f16051850abd4d6685deb9d655f308624f8a65a0891ed87077) )
+3. In this example, 5 BNB and 1,000,000,000,000 Doge tokens were added to the Pancake exchange.
+4. Finally, 2,236,067.977... LP tokens were obtained.
+5. Click on the Pancake LPs token contract address.
+6. Enter the Pancake LPs token contract details page (as shown below)
+7. The address in the red part of the upper right corner is the LP token contract address.
 
 ![add-liquidity](../.gitbook/assets/common-problem/Snipaste_2022-05-16_16-10-28.png)
 
-7. 右上角红色部分地址就是LP的令牌合约地址
+## Method 2: Search by contract address
 
-## 方法2:通过合约地址查询
-
-1. 通过区块链浏览器输入合约地址查询，`Contract` 和 `Read Contract` 位置
+1. Use a blockchain explorer to search for the contract address, in the `Contract` and `Read Contract` positions.
 
 ![add-liquidity](../.gitbook/assets/common-problem/Snipaste_2022-05-26_11-18-00.png)
 
-2. 搜索查找 `uniswapPair` 关键字
+2. Search for the keyword `uniswapPair`
 
 ![add-liquidity](../.gitbook/assets/common-problem/Snipaste_2022-05-26_11-19-02.png)
 
-提示：通过合约查询到 uniswapPair 的字段地址，获取到 LP地址
+Note: By searching for the `uniswapPair` field address in the contract, you can obtain the LP address.
 
-## 方法3:通过Token管理员页面查询
+## Method 3: Search via the token admin page
 
-1. 打开对应发币的页面，进入Token管理员（本方法适合未丢权限合约）
-2. 输入合约地址进入管理员页面
+1. Open the corresponding page of the token issuer and enter the token admin page (this method is suitable for contracts that have not lost their permissions).
+2. Enter the contract address to enter the admin page.
 
 ![add-liquidity](../.gitbook/assets/common-problem/Snipaste_2022-05-26_11-24-01.png)
 
-3. 查看LP地址
+3. View the LP address.
 
 ![add-liquidity](../.gitbook/assets/common-problem/Snipaste_2022-05-26_11-25-24.png)
 
-提示：此方法查询的是 BNB-XXX交易对的 LP地址
-如果您添加的流动性不是BNB交易对，请使用第一种方式查询你的LP地址
+Note: This method searches for the LP address of the BNB-XXX trading pair. If you add liquidity to a non-BNB trading pair, please use the first method to find your LP address.
 
-## 方法4:通过合约安全检测功能
+## Method 4: Use the contract security check function
 
-1. 打开合约安全检测功能地址：[https://tokentool.app/audit/contract](https://tokentool.app/audit/contract)
-2. 选择支持的链，输入合约地址进行安全检测。
+1. Open the contract security check function URL: [https://tokentool.app/audit/contract](https://tokentool.app/audit/contract)
+2. Select the supported blockchain and enter the contract address for security check.
 
 ![add-liquidity](../.gitbook/assets/common-problem/Snipaste_2022-11-24_22-25-45.png)
 
-3. 通过池子大小检测信息获取到池子地址
+3. Obtain the pool address by checking the pool size detection information.
 
 ![add-liquidity](../.gitbook/assets/common-problem/Snipaste_2022-11-24_22-23-15.png)

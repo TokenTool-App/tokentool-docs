@@ -1,16 +1,15 @@
-# IPFS
+#IPFS
 
-IPFS 为分布式 Web 提供动力，一种点对点超媒体协议，旨在通过使网络可升级、有弹性和更开放来保存和增长人类的知识
+Powering the Distributed Web with IPFS, a peer-to-peer hypermedia protocol designed to preserve and grow human knowledge by making the web scalable, resilient and more open
 
-## 如何将本地图片上传到IPFS网络中
+## How to upload local pictures to IPFS network
 
 
-### 前往[https://tokentool.app/other/ipfs](https://tokentool.app/other/ipfs) IPFS图片上传页面
+### Go to [https://tokentool.app/other/ipfs](https://tokentool.app/other/ipfs) IPFS image upload page
 
 ![create-mining](../.gitbook/assets/other/ipfs/ipfs_01.png)
 
-### 点击上传按钮，选择本地文件/图片进行上传。
+### Click the upload button to select a local file/picture to upload.
 
 ![create-mining](../.gitbook/assets/other/ipfs/ipfs_02.png)
-### 上次完成后，获取hash值和地址信息
-
+### After the last completion, get the hash value and address information

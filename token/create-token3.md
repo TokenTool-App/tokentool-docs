@@ -1,110 +1,110 @@
-# 创建一个【持币分红】代币
+# Create a [Coin Dividend] token
 
-> **TokenTool是一个区块链工具箱，支持ETH、BSC、等超多公链，可以创建多种不同机制模型代币，轻松解决发币问题，可在几分钟内创建一个属于你自己的Token。**
-
-
-> **点击加入 [TokenTool官方交流群](https://t.me/tokentool_app) 交流反馈**
-
-> **推荐使用电脑版谷歌浏览器 + `Metamask` 插件钱包 进行操作.**
-> **手机用户也可以在 `TP钱包`-发现-输入官网链接 进行操作.**
+> **TokenTool is a blockchain toolbox that supports ETH, BSC, and other super public chains. It can create a variety of model tokens with different mechanisms, and easily solve the problem of issuing tokens. You can create your own in a few minutes Token. **
 
 
-> **视频教程链接： [https://youtu.be/CePxDWuOyd8](https://youtu.be/CePxDWuOyd8)**
+> **Click to join [TokenTool Official Communication Group](https://t.me/tokentool_app) exchange feedback**
+
+> **It is recommended to use the computer version of Google Chrome + `Metamask` plug-in wallet for operation.**
+> **Mobile phone users can also operate in `TP wallet`-discovery-enter the official website link.**
 
 
-### 机制说明
+> **Video tutorial link: [https://youtu.be/CePxDWuOyd8](https://youtu.be/CePxDWuOyd8)**
+
+
+### Mechanism Description
 
 ```
-税率分配主要包括:
-营销,回流,销毁,持币分红
+The distribution of tax rates mainly includes:
+Marketing, backflow, destruction, currency dividends
 
-营销 : 扣除代币,'触发时'兑换分红币->进营销钱包
-回流 : 扣除代币,'触发时'自动加池子->这部分管理员地址可撤池子
-销毁 : 扣除代币,直接送进黑洞销毁
-持币分红 : 扣除代币,'触发时'兑换分红币分给持币用户
+Marketing : Deduct tokens, 'when triggered' to exchange for bonus coins -> into the marketing wallet
+Return : Tokens are deducted, and the pool is automatically added when it is triggered -> this part of the administrator address can be withdrawn from the pool
+Destruction: Tokens are deducted and sent directly to the black hole for destruction
+Currency dividends: Deduct tokens, 'when triggered' exchange for dividends and distribute them to currency holders
 ```
 
 
 
-查看以下步骤，了解如何使用PC电脑端的Matamask钱包通过TokenTool创建持币分红代币。
+Check out the steps below to learn how to use the Matamask wallet on the PC side to create tokens for holding dividends through TokenTool.
 
-1. MateMask钱包链接到区块链网络。
-2. 打开创建代币链接地址 [https://tokentool.app/createToken/v3](https://tokentool.app/createToken/v3)
-3. 输入必要的信息，在此之前，让我们回顾一下所有需要填写的重要字段：
+1. The MateMask wallet is linked to the blockchain network.
+2. Open the create token link address [https://tokentool.app/createToken/v3](https://tokentool.app/createToken/v3)
+3. Enter the necessary information, but before that, let's review all the important fields that need to be filled:
 
 
 ![Snipaste_2022-05-06_22-43-21](../.gitbook/assets/v3/Snipaste_2022-05-06_22-43-21.png)
 
 
 
-**币种名称：** 代币的名称信息（如BitCoin）
+**Currency name:** The name information of the token (such as BitCoin)
 
-**币种符号：** 代币的符号信息（如BTC）
+**Currency symbol:** The symbol information of the token (such as BTC)
 
-**初始供应量：** 代币的总供应量
+**Initial Supply:** The total supply of tokens
 
-**黑名单：** 黑名单限制买卖开关（开启后可在管理员页面进行操作添加某些地址无法进行`交易`,`转账`）
+**Blacklist:** The blacklist restricts buying and selling switch (after it is turned on, it can be operated on the administrator page to add certain addresses that cannot be used for `transaction`, `transfer`)
 
-**交易平台：** 不同的链会有不同的交易平台（如ETH链有`uniswap`,BSC链有`pancakeSwap` 等）， **代币创建完成后需要在对应的交易平台添加流动性。**
+**Trading platform:** Different chains will have different trading platforms (such as `uniswap` for the ETH chain, `pancakeSwap` for the BSC chain, etc.), **After the token is created, liquidity needs to be added to the corresponding trading platform . **
 
-**分红合约：** 代币奖励合约地址，您要用于奖励用户的代币的合约地址。例如，您在币安智能链上创建一个BitCoin 代币，并想用 DOGE 奖励您的用户，可以输入 0xba2ae424d960c26247dd6c32edc70b295c744c43（Binance-Peg 狗狗币合约地址）。
+**Dividend contract:** Token reward contract address, the contract address of the token you want to use to reward users. For example, if you create a BitCoin token on Binance Smart Chain and want to reward your users with DOGE, you can enter 0xba2ae424d960c26247dd6c32edc70b295c744c43 (Binance-Peg Dogecoin contract address).
 
-**最小持仓分红数量：** 为了获得奖励，每个钱包必须至少持有这个数量的代币，才有资格参与分红DOGE奖励。
+**Minimum amount of holding dividends:** In order to receive rewards, each wallet must hold at least this amount of tokens to be eligible to participate in the dividend DOGE rewards.
 
-**营销钱包：** `营销税`部分的代币将会兑换成分红币发送到该地址。
+**Marketing Wallet:** The tokens in `Marketing Tax` will be converted into red coins and sent to this address.
 
-**流动性 (%)：** 每笔交易都会扣除对应比例代币送进`合约地址`,在 **触发机制** 时会自动加池子,使池子更厚。
+**Liquidity (%):** Each transaction will deduct the corresponding proportion of tokens and send them to the `contract address`, and the pool will be automatically added when the **trigger mechanism** is activated to make the pool thicker.
 
-**营销 (%)：** 每笔交易都会扣除对应比例代币送进`合约地址`,在 **触发机制** 时会自动兑换成分红币(这取决于你选择的分红代币,分红什么营销就进什么) 发送到你的营销钱包地址
+**Marketing (%):** Each transaction will deduct the corresponding proportion of tokens and send them to the `contract address`, which will be automatically converted into red coins when **triggers the mechanism** (depending on the dividend token you choose, If you pay dividends, you will get what you want for marketing) and send it to your marketing wallet address
 
-**分红 (%)：** 每笔交易都会扣除对应比例代币送进`合约地址`,在 **触发机制** 时会自动兑换成`USDT`(取决于你的分红代币)发放给持币达到`最低分红标准`的用户
+**Dividend (%):** Each transaction will deduct the corresponding proportion of tokens and send them to the `contract address`, and will be automatically converted into `USDT` (depending on your dividend tokens) when the **trigger mechanism** is issued For users who hold coins and reach the `Minimum Dividend Standard`
 
-**销毁(%)：** 每笔交易中会根据比例数量进行销毁基础代币，转入到`0x000000000000000000000000000000000000dead` 黑洞地址
+**Destroy (%):** In each transaction, the base token will be destroyed according to the proportional amount, and transferred to `0x000000000000000000000000000000000000dead` black hole address
 
 
 
-例如，您使用以下参数创建 BitCoin 令牌：
+For example, you create a BitCoin token with the following parameters:
 
-代币名称：BitCoin 
+Token name: BitCoin
 
-代币：BTC 
+Token: BTC
 
-总供应量：100000000 BTC 
+Total Supply: 100,000,000 BTC
 
-每笔交易产生 6% 的费用.
+Each transaction incurs a 6% fee.
 
-其中：
+in:
 
-2% 分配给 DOGE 中的所有持有者，
+2% distributed to all holders in DOGE,
 
- 2% 锁定在流动性池中以创造稳定上涨的价格，
+  2% locked in the liquidity pool to create a steadily rising price,
 
-2% 分配到营销地址：`0x...000000000000000000000`。
+2% allocated to the marketing address: `0x...000000000000000000000`.
 
-在下图中，您可以看到要在各个字段中输入的信息。
+In the image below, you can see the information to enter in the various fields.
 
 ![create token](../.gitbook/assets/v3/Snipaste_2022-05-06_23-05-37.png)
 
 
 
-4. 输入所有必要信息后，单击“立即创建”。
+4. After entering all the necessary information, click Create Now.
 
-5. MetaMask 现在会要求您确认交易。它还将向您显示您需要为该交易支付的费用。如果您同意，请单击“确认”按钮以完成该过程。
+5. MetaMask will now ask you to confirm the transaction. It will also show you the fee you need to pay for the transaction. If you agree, click the "Confirm" button to complete the process.
 
-## Token管理员介绍
+## Token administrator introduction
 
-当前拥有者(owner)在没有放弃权限时，可通过token管理员页面进入后台，对其参数等信息进行可视化修改。我们提供了友好的交互页面，让管理者更加方便的操作合约/修改参数。
+When the current owner (owner) has not given up the authority, he can enter the background through the token administrator page to visually modify its parameters and other information. We provide a friendly interactive page to make it easier for managers to operate contracts/modify parameters.
 
 
 
 ![token-admin](../.gitbook/assets/v3/Snipaste_2022-05-07_12-16-43.png)
 
-1. 币种名称、供应量，LP地址（当前代币和BNB的交易的LP地址，可点击 `锁池子` 跳转到锁池子页面），
-2. 分红持币人数，显示目前参与分红的持币地址数量
-3. **拥有权转移：** 可以将来owner权限转移给第三者 或者 其他地址
-4. **销毁权限：** 将owner地址转移给 `0x0000000000000000000000000000000000000000`地址
-5. **买卖手续费：** 可编辑修改你的交易手续费（手续费在swap交易时收取，转账不会收取手续费）
-6. **最小持仓分红数量：** 每个钱包必须至少持有这个数量的代币，才有资格参与分红DOGE奖励。
+1. Currency name, supply, LP address (the LP address of the current token and BNB transaction, you can click `Lock Pool` to jump to the lock pool page),
+2. Number of dividend holders, showing the number of currency holders currently participating in dividends
+3. **Ownership transfer:** The owner right can be transferred to a third party or other address in the future
+4. **Destroy authority:** Transfer owner address to `0x0000000000000000000000000000000000000000` address
+5. **Trade fee:** You can edit and modify your transaction fee (the fee is charged during swap transactions, and the transfer fee will not be charged)
+6. **Minimum amount of holding dividends:** Each wallet must hold at least this amount of tokens to be eligible to participate in the dividend DOGE rewards.
 
 
 
@@ -112,47 +112,47 @@
 
 ![token-admin](../.gitbook/assets/v3/Snipaste_2022-05-07_12-17-00.png)
 
-7. **手续费白名单：** 添加为白名单的地址，在交易时将不会产生税费。地址批量添加多个地址，一行一个地址。可根据添加和移除控制。
-8. **买卖黑名单限制：** 添加为黑名单的地址将会无法【转账】/【交易】/【买卖】，可根据添加和移除控制。
-9. **排除分红资格：** 可将固定地址排除分红奖励资格。
-10. **营销地址：** 可以二次修改地址，分红什么币进营销也是什么币。
-11. **销毁：** 销毁将币的数量进行销毁转入黑洞地址，转入到`0x000000000000000000000000000000000000dead` 地址。
-12. **杀区块：** 自动杀区块,输入3代表杀3区块，意思就是前3区块(bsc大概9秒)买入的地址自动让代币转移到营销地址中。
-13. **地址裂变：** 每笔交易都会自动向随机地址空投`一点点`代币,达到增加持币地址的效果
+7. **Whitelist of handling fees:** Addresses added to the whitelist will not generate taxes and fees during transactions. Address Add multiple addresses in batches, one address per line. Controls can be added and removed accordingly.
+8. **Buying and selling blacklist restrictions:** Addresses added to the blacklist will not be able to [transfer]/[transaction]/[buy and sell], and can be controlled according to addition and removal.
+9. **Exclude eligibility for dividends:** Fixed addresses can be excluded from eligibility for dividends.
+10. **Marketing address:** The address can be modified twice, and the currency that is used for dividends is also the currency that is used for marketing.
+11. **Destroy:** Destroy will destroy the amount of coins and transfer them to the black hole address, and transfer them to `0x000000000000000000000000000000000000dead` address.
+12. **Kill block:** Automatically kill block, input 3 means kill 3 blocks, which means that the address purchased in the first 3 blocks (bsc about 9 seconds) will automatically transfer tokens to the marketing address.
+13. **Address fission:** Each transaction will automatically airdrop `little bit` tokens to a random address to achieve the effect of increasing the currency holding address
 
 
 
-### 常见问题解答
+### Frequently Asked Questions
 
-- **我创建的代币可以在多个swap，比如 `博饼swap` `BabySwap` .. 加池子吗？**
-  - 解答：创建代币的时候会有平台选择，如你选择了什么swap，比如你选择的是 `博饼swap` ，就要在`博饼swap` 添加池子。
+- **The tokens I created can be swapped in multiple swaps, such as `Bobing swap` `BabySwap` .. Add to the pool? **
+   - Answer: When creating a token, there will be a platform choice. If you choose a swap, for example, if you choose `Bobing swap`, you need to add a pool in `Bobing swap`.
 
 
-- **我创建的持币分红机制的代币，可以用`USDT`，`BUSDT` 或`自己的子币` 加池子吗?**
-  - 解答：不可以，持币分红模板一定要有BNB池子哦。
+- **Can I use `USDT`, `BUSDT` or `my own sub-token` to add to the pool for the tokens of the token holding dividend mechanism I created?**
+   - Answer: No, the token holding dividend template must have a BNB pool.
 
--  **代码是自动开源的吗?**
-	- 解答：是的,在区块浏览器设施完善的链上都是自动开源的,包括`ETH` `BSC` `ARB`…等等
+- **Is the code automatically open-sourced?**
+- Answer: Yes, all chains with complete block browser facilities are automatically open source, including `ETH` `BSC` `ARB`...etc
 
-- **营销进的是代币还是USDT?**
-  - 解答：营销钱包进的是你选择的分红代币,你选择`USDT`进的就是`USDT`,选的是`DOGE`进的就是`DOGE`。
+- **Is the marketing into tokens or USDT?**
+   - Answer: The dividend token you choose is put into the marketing wallet. If you choose `USDT`, you will get `USDT`, and if you choose `DOGE`, you will get `DOGE`.
   
-- **我在创建代币的时候，忘记打开黑名单开关，我还能用黑名单功能吗？**
-	- 解答：不可以，如果你没打开黑名单功能，合约代码中将不会存在黑名单逻辑代码，检测合约机器人也将也不会检测到黑名单开关。 
+- **I forgot to turn on the blacklist switch when creating tokens, can I still use the blacklist function? **
+- Answer: No, if you do not turn on the blacklist function, there will be no blacklist logic code in the contract code, and the detection contract robot will not detect the blacklist switch.
 
-- **上文说的 触发机制 是什么意思？**
-  - 解答：非白名单地址在买卖时，收取的税会存放到合约地址中，有 **卖出操作** ,就会触发营销,回流，分红等机制
+- **What does the trigger mechanism mentioned above mean? **
+   - Answer: When a non-whitelist address is buying or selling, the tax collected will be stored in the contract address. If there is a **sell operation**, it will trigger marketing, backflow, dividends and other mechanisms
 
-- **我在BSC链上，可以创建分红XX币，或者我自己创建的子币吗？**
-  - 解答：只要你的XX币有BNB的交易对存，就可以分红，主流币大部分都有BNB交易对，如`USDT` 、`BUSD` 、 `BTC` 、 `ETH ` 等等。
+- **I am on the BSC chain, can I create dividend XX coins, or sub-coins created by myself? **
+   - Answer: As long as your XX currency has a BNB transaction pair deposit, you can get dividends. Most mainstream currencies have BNB transaction pairs, such as `USDT`, `BUSD`, `BTC`, `ETH` and so on.
 
-- **回流自动加池子的这部分LP到哪去了呢？**
-  - 解答：回流到池子后产生的`LP`自动发放到`管理员钱包`。
+- Where did the part of the LP that reflowed and automatically added to the pool go? **
+   - Answer: The `LP` generated after returning to the pool is automatically issued to the `administrator wallet`.
 
 
 
-> 引用地址
+> Referrer
 
-> 创建代币地址：[https://www.tokentool.app/createToken/v3](https://www.tokentool.app/createToken/v3) 
+> Create token address: [https://www.tokentool.app/createToken/v3](https://www.tokentool.app/createToken/v3)
 
-> YouTube教学视频：[https://youtu.be/CePxDWuOyd8](https://youtu.be/CePxDWuOyd8)  
+> YouTube teaching video: [https://youtu.be/CePxDWuOyd8](https://youtu.be/CePxDWuOyd8)

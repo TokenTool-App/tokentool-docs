@@ -1,6 +1,6 @@
-1. 币安智能链
-	- 创建代币费用：0.1BNB
-	- 创建BSC Launchpad 费用：0.8BNB
-	- TokenToolLock锁池子费用：0BNB
-	- 科学家模块费用：1天=0.03BNB，7天=0.1BNB，永久=2BNB
-	- 创建挖矿活动费用：1BNB
+1. Binance Smart Chain
+- Token creation fee: 0.1BNB
+- Create BSC Launchpad fee: 0.8BNB
+- TokenToolLock lock pool fee: 0BNB
+- Scientist module fee: 1 day = 0.03BNB, 7 days = 0.1BNB, permanent = 2BNB
+- Fee for creating a mining activity: 1BNB

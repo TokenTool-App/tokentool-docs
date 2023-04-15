@@ -1,60 +1,59 @@
-# tokentool.app科学家抢币神器
+#tokentool.app Scientist Grabbing Coin Artifact
 
-自从shib火了以后，一级市场就出现了各种动物币，也开始转战一级市场了，一级市场动不动就是几倍几十倍甚至上百倍行情，非常刺激。但是一级市场的币都是没有通过审核的，风险也极大。但是玩一级市场抢新币，需要一个好的工具——抢币科学家。项目一开盘就抢进去，赚取后期的大幅利润。
+Since shib became popular, various animal coins have appeared in the primary market, and they have also begun to move to the primary market. The primary market is always several times, tens of times or even hundreds of times, which is very exciting. However, the coins in the primary market have not passed the review, and the risks are extremely high. But to play the primary market to grab new coins, you need a good tool-coin grabbing scientist. Grab in the project as soon as it opens, and earn a large profit in the later stage.
 
-## **TokenTool.App是什么？**
+## **What is TokenTool.App? **
 
-TokenTool.app本身是一个科学家网站，上面有很多非常牛逼的功能，比如批量创建钱包，批量空投，批量查询，代币归集，钱包授权解除等强大的功能。当然我今天要介绍的不是这些，而是针对一级市场火爆而设计的科学家抢币神器。最重要的是**免费！** **免费！** **免费！** 后期可能会进行收取一点服务器和劳力费用，现在是一直免费。
+TokenTool.app itself is a website for scientists with many powerful functions, such as creating wallets in batches, airdropping in batches, querying in batches, token collection, wallet authorization release and other powerful functions. Of course, what I want to introduce today is not these, but an artifact for scientists to grab coins designed for the hot primary market. Best of all ** FREE! ** **free! ** **free! ** A little server and labor fee may be charged later, but it is always free now.
 
-科学家网页  https://tokentool.app/robotTrade/panicBuying
+Scientist web page https://tokentool.app/robotTrade/panicBuying
 
 
 
 ![create token](../.gitbook/assets/Snipaste_2021-10-24_22-36-44.png)
 
-选择平台，我发现这个科学家抢币神器支持的平台很多，基本上市面上见到的主流的 费主流的都支持，最近还新增加了马蹄链的quickswap等其他平台。
+When choosing a platform, I found that this scientist coin grabbing artifact supports many platforms, basically the mainstream ones seen in the market are all supported, and recently, other platforms such as quickswap of the horseshoe chain have been added.
 
-大家根据自己要抢的币的dex 进行选择对应的平台，这里演示，我选择了eth链的Rinkeby 的测试网，选择uniswap 平台进行演示如何抢购。
+Everyone chooses the corresponding platform according to the dex of the currency they want to grab. Here is a demonstration. I chose the Rinkeby test network of the eth chain, and chose the uniswap platform to demonstrate how to snap up.
 
 ![create token](../.gitbook/assets/Snipaste_2021-10-24_22-40-02.png)
 
-选择好平台后导入私钥，强烈推荐使用小额资产的小钱包进行抢币,需要私钥是为了省去确认操作，直接实现快速自动买卖.**本程序完全本地运行,不会上传私钥到服务器,欢迎监督检测.**
+After choosing a platform, import the private key. It is strongly recommended to use a small wallet with small assets to grab coins. The private key is needed to save the confirmation operation and directly realize fast automatic trading. **This program runs completely locally and will not upload the private key To the server, welcome to monitor and inspect.**
 
-载入私钥成功后，用户可以看到BNB或者HT或者OKT 余额，具体展示哪一种，和用户选择的交易平台属于哪 个智能链有关。
+After the private key is successfully loaded, the user can see the balance of BNB or HT or OKT, and which one is displayed depends on which smart chain the trading platform selected by the user belongs to.
 
 ![create token](../.gitbook/assets/Snipaste_2021-10-24_22-51-08.png)
 
-目前支持用户进行买入和卖出，双向交易
+Currently supports users to buy and sell, two-way trading
 
-交易币种：使用平台币或者USDT稳定币进行购买
+Transaction currency: use platform currency or USDT stable currency for purchase
 
-合约地址：则是在uniswap 中可以交易的币，本教程演示的是购买UNI测试币，地址`0xb1d1502fa0e5791c655b8e62e189335a25ebc8d4` 
+Contract address: it is the currency that can be traded in uniswap. This tutorial demonstrates the purchase of UNI test currency, the address `0xb1d1502fa0e5791c655b8e62e189335a25ebc8d4`
 
-提前授权：一般钱包里面没有币是不能提前授权的。使用科学家可以给没有的币提前授权，在卖出的时候就不用再次授权了。卖出速度更快，避免错过最佳卖出点位。
+Advance authorization: In general, if there is no currency in the wallet, it cannot be authorized in advance. Scientists can authorize coins that are not available in advance, and there is no need to authorize again when selling. Sell faster and avoid missing the best selling point.
 
-流动池：流动池检测当前的币种的交易对是使用那种配置，如UNI-ETH 那么选择ETH，不同币种的交易对不一样，如果不知道是什么交易对，则选择autoCheck 自动检测机制。
+Flow pool: The flow pool detects the current currency transaction pair, which configuration is used, such as UNI-ETH, then choose ETH, and the transaction pairs of different currencies are different. If you don’t know what the transaction pair is, choose the autoCheck automatic detection mechanism .
 
-流动池最小数量：检测流动池的交易对池子数量，如果小于配置信息，则不会进行下单操作，默认不检查。
+Minimum number of liquidity pools: Check the number of trading pairs in the liquidity pool. If it is less than the configuration information, the order will not be placed, and it will not be checked by default.
 
-购买金额/数量：例如您设置买入金额为2个ETH，买入次数为5次，则科学家会自动连续购买2ETH，买5次，一共买10ETH
+Purchase amount/quantity: For example, if you set the purchase amount to 2 ETH and the number of purchases to 5 times, the scientist will automatically purchase 2 ETH continuously for 5 times, for a total of 10 ETH
 
-失败重试：在购买后进行检测购买是否成功，如失败会一直进行购买，直到购买成功为止。此开关会一直燃烧手续费，需要谨慎小心。
+Retry on failure: Check whether the purchase is successful after the purchase. If it fails, the purchase will continue until the purchase is successful. This switch will always burn fees, so be careful.
 
-高级功能:自动卖出智能回本（该功能根据买入的币和花费的币计算平均价格，实时计算当前买入的币的价格的涨幅，如超过上涨比例，则进行出售比例。
+Advanced function: automatic selling smart return (this function calculates the average price based on the purchased currency and the spent currency, and calculates the increase in the price of the currently purchased currency in real time. If it exceeds the increase ratio, it will sell the ratio.
 
 
 
 ![create token](../.gitbook/assets/Snipaste_2021-10-24_23-07-32.png)
 
-这个通过token管理员将开启暂停交易开启，则会无法交易，通过开启失败重试功能，将会一直循环下单操作直到成功为止。
+The token administrator will turn on the suspension of transactions, and the transaction will not be able to be turned on. By turning on the failure retry function, the order will be placed in a loop until it succeeds.
 
 ![create token](../.gitbook/assets/Snipaste_2021-10-24_23-15-25.png)
 
-此处交易可以看到买入0.01ETH，买入5次，总共花费了得到UNI币的数量，计算出平均价格，为0.010425074494342828 。
+In the transaction here, you can see that you bought 0.01ETH, bought 5 times, and spent a total of UNI coins. The calculated average price is 0.010425074494342828.
 
-通过另外一个钱包地址把UNI的价格拉高，买入了0.0223484个ETH，此时UNI的价格上涨到 0.0113767，触发了智能回本功能，卖出了2.398064398826719304个UNI。
+The price of UNI was raised through another wallet address, and 0.0223484 ETH was bought. At this time, the price of UNI rose to 0.0113767, which triggered the smart return function and sold 2.398064398826719304 UNI.
 
 
 
 <img src="../.gitbook/assets/Snipaste_2021-10-24_23-21-50.png" alt="create token" style="zoom: 33%;" />
-

@@ -1,25 +1,25 @@
-# 靓号合约地址生成
+# Generating contract address of the smart number
 
-如何生成一个靓号的合约地址，例如：``0x0000000000004946c0e9f43f4dee607b0ef1fa1c`` 。
-查看以下步骤，了解如何使用PC电脑端通过TokenTool平台的合约靓号生成器，生成靓号合约地址。
+How to generate a smart contract address, for example: ``0x0000000000004946c0e9f43f4dee607b0ef1fa1c``.
+Check the following steps to learn how to use the PC terminal to generate a smart number contract address through the contract smart number generator of the TokenTool platform.
 
-1. 打开[靓号合约生成](https://tokentool.app/other/vanityContractGenerator)地址：[https://tokentool.app/other/vanityContractGenerator](https://tokentool.app/other/vanityContractGenerator)
+1. Open [VanityContractGenerator](https://tokentool.app/other/vanityContractGenerator) address: [https://tokentool.app/other/vanityContractGenerator](https://tokentool.app/other/vanityContractGenerator)
 
-2. 输入您要生成的靓号字符串内容 **（温馨提示：在页面加载完成后，建议断开网络或关闭WI-FI离线生成）**
+2. Enter the string content of the name you want to generate ** (reminder: after the page is loaded, it is recommended to disconnect the network or turn off WI-FI offline generation) **
 
 
 ![vanityContract](../.gitbook/assets/other/vanity/Snipaste_2022-12-23_17-12-18.png)
 
 
-3. 如上图所示，生成后缀尾号8888的合约地址，并使用了4个线程。
+3. As shown in the figure above, the contract address with the suffix tail number 8888 is generated and 4 threads are used.
 
-4. 根据您的电脑配置，调整线程数量，生成的速度取决您的电脑CPU的核心线程数量，如越多生成的越快。
+4. According to your computer configuration, adjust the number of threads. The generation speed depends on the number of core threads of your computer CPU. For example, the more threads, the faster the generation.
 
 ![vanityContract](../.gitbook/assets/other/vanity/Snipaste_2022-12-23_17-24-36.png)
 
 
 
-5. 成功后您可以看到： **合约地址**，**地址**，**私钥**  ，使用该地址第一次部署合约将会得到一个您靓号合约地址。
+5. After success, you can see: **contract address**, **address**, **private key**, using this address to deploy the contract for the first time will get a smart contract address.
 
 
 
@@ -27,35 +27,34 @@
 
 
 
-导入钱包地址，并转入足够支付部署发币合约手续费。现在您可以通过一键发币功能，部署合约。
+Import the wallet address, and transfer enough to pay the commission for deploying the coin issuance contract. Now you can deploy the contract through the one-click coin issuance function.
 
 
 
 ![vanityContract](../.gitbook/assets/other/vanity/Snipaste_2022-12-23_17-45-57.png)
 
-**温馨提示 ：您可以使用该地址部署合约后，立马将合约的拥有权转移至大号地址并将大号地址加入白名单。**
+**Reminder: After deploying the contract with this address, you can immediately transfer the ownership of the contract to the large address and add the large address to the whitelist. **
 
-**同时使用该地址在不同链上第一次发行代币，你将会得到相同的合约地址。**
+**Use this address at the same time to issue tokens on different chains for the first time, and you will get the same contract address. **
 
-**比如我在BSC链发币后得到：`0x0000000000004946c0e9f43f4dee607b0ef1fa1c` 地址。**
+**For example, after I issued coins on the BSC chain, I got: `0x0000000000004946c0e9f43f4dee607b0ef1fa1c` address. **
 
-**同样我在 ETH链 第一次发行代币也讲会得到相同地址，其他链也类似。**
-
-
+**Similarly, I will get the same address when I issue tokens for the first time on the ETH chain, and other chains are similar. **
 
 
 
 
 
-> 引用地址：
+
+
+> Reference address:
 >
-> [https://tokentool.app/other/vanityContractGenerator](https://tokentool.app/other/vanityContractGenerator) 合约靓号生成
+> [https://tokentool.app/other/vanityContractGenerator](https://tokentool.app/other/vanityContractGenerator) contract number generation
 >
-> [https://tokentool.app/createToken/bsc](https://tokentool.app/createToken/bsc) 创建代币V1版本
+> [https://tokentool.app/createToken/bsc](https://tokentool.app/createToken/bsc) Create Token V1
 >
-> [https://tokentool.app/createToken/v2](https://tokentool.app/createToken/v2) 创建代币V2版本
+> [https://tokentool.app/createToken/v2](https://tokentool.app/createToken/v2) Create token V2 version
 >
-> [https://tokentool.app/createToken/v3](https://tokentool.app/createToken/v3) 创建代币V3版本
+> [https://tokentool.app/createToken/v3](https://tokentool.app/createToken/v3) Create token V3 version
 >
-> [https://tokentool.app/createToken/v4](https://tokentool.app/createToken/v4) 创建代币V4版本
-
+> [https://tokentool.app/createToken/v4](https://tokentool.app/createToken/v4) Create token V4 version

@@ -1,8 +1,8 @@
-# 启动板
+# launchpad
 
 
 
-### [创建启动版](create-a-launchpad.md)
-### [更新启动板](update-a-launchpad.md)
-### [完成启动板](finalize-a-launchpad.md)
-### [添加/删除白名单](add-remove-whitelists.md)
+### [Create a launchpad](create-a-launchpad.md)
+### [Update Launchpad](update-a-launchpad.md)
+### [Finalize Launchpad](finalize-a-launchpad.md)
+### [Add/Remove Whitelists](add-remove-whitelists.md)

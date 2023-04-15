@@ -1,14 +1,14 @@
-# 质押挖矿
+# Pledge mining
 
 ![Stake-farm](../.gitbook/assets/mining/Snipaste_2022-06-20_17-03-31.png)
 
-## 质押挖矿介绍
+## Pledge Mining Introduction
 
-1. 总市值：双币做市挖矿将会自动计算LP池子的USDT价值，（只有LP双币挖矿才会有市值）
-2. 总质押：当前质押挖矿池中总的质押数量。
-3. 释放周期/总发放：挖矿总天数和总的发放数量，如要计算每天发送量（总天数/总发放=每日发放量）
-4. 如挖矿未开始，则会进行倒计时中，等待挖矿开始，即质押挖矿。
-5. 邀请记录：用户通过您的邀请记录，质押挖矿那么将会显示下级代理的信息。以及邀请奖励信息。
+1. Total market value: Dual-currency market-making mining will automatically calculate the USDT value of the LP pool, (only LP dual-currency mining will have a market value)
+2. Total pledge: the total pledge amount in the current pledge mining pool.
+3. Release cycle/total issuance: the total number of mining days and the total amount issued, if you want to calculate the amount sent per day (total days/total issuance = daily amount issued)
+4. If the mining has not started, it will be counting down, waiting for the mining to start, that is, staking mining.
+5. Invitation record: The user will display the information of the sub-agent through your invitation record and pledge mining. and invitation reward information.
 
 
 
@@ -16,16 +16,16 @@
 
 ![Stake-farm](../.gitbook/assets/mining/Snipaste_2022-06-20_21-09-19-2.png)
 
-## 质押
+## Pledge
 
-1. 小狐狸/TP钱包dapp打开质押挖矿链接，链接钱包
-2. 根据质押的余额，选择全部或部分余额质押挖矿。
-3. 如有质押锁仓时间，需确认是否质押。
+1. The Little Fox/TP Wallet dapp opens the pledge mining link and links the wallet
+2. According to the pledged balance, choose to pledge all or part of the balance for mining.
+3. If there is a pledge lock time, you need to confirm whether to pledge.
 
-## 领取收益
+## Receive benefits
 
 ![Stake-farm](../.gitbook/assets/mining/Snipaste_2022-06-20_21-09-19-3.png)
 
-1. 小狐狸/TP钱包dapp打开质押挖矿链接，链接钱包
-2. 查看收益，点击领取
-3. 收益产生规则：根据每天发放的数量，计算每秒钟的收益，根据质押占比，将会得到收益比例。例如（10天，发放1000个TT代币，每日发放 1000 / 10 = 100个TT，当前质押占比百分之100%，那么当前用户每天能获取100个TT代币，100 / 86400秒 = 每秒钟 可获得 0.001157407407）
+1. The Little Fox/TP Wallet dapp opens the pledge mining link and links the wallet
+2. Check the income and click to receive
+3. Earning generation rules: Calculate the earning per second based on the amount issued each day, and get the earning ratio based on the pledge ratio. For example (10 days, 1000 TT tokens are issued, 1000 / 10 = 100 TT are issued every day, and the current pledge ratio is 100%, then the current user can obtain 100 TT tokens every day, 100 / 86400 seconds = Get 0.001157407407 per second)

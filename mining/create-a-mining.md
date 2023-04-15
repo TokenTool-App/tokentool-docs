@@ -1,40 +1,39 @@
-# 创建挖矿
-如何使用TokenTool 创建挖矿活动
+# create mining
+How to use TokenTool to create mining activities
 [https://youtu.be/QfqfRCVvPc8](https://youtu.be/QfqfRCVvPc8)
 
-## 第1步：挖矿规则
+## Step 1: Mining Rules
 
-1. 链接你的钱包。
-2. 前往[https://tokentool.app/mining/list](https://tokentool.app/mining/list) 创建挖矿页面。
-3. 点击创建挖矿
+1. Link your wallet.
+2. Go to [https://tokentool.app/mining/list](https://tokentool.app/mining/list) to create a mining page.
+3. Click Create Mining
 
 ![create-mining](../.gitbook/assets/mining/Snipaste_2022-06-20_16-37-44.png)
 
-#### **1.1选择挖矿类型**
-TokenTool提供以下两种不同的挖矿类型，这两种类型都不支持通缩类型的代币(通缩类型根据币的价格自动放大或缩少供应量)，挖矿池子一旦创建，参数无法修改。
+#### **1.1 Select mining type**
+TokenTool provides the following two different mining types, both of which do not support deflationary tokens (the deflationary type automatically increases or decreases the supply according to the price of the currency), once the mining pool is created, the parameters cannot be modified.
 
-- **单币质押挖矿**：鼓励用户锁仓代币，减少流通代币；创建后，用户只需要质押一种代币，就可以获取挖矿收益；
-- **双币做市挖矿**：激励用户为项目代币做市，提高代币在链上的流动性；创建后，用户需要先在流动性资金池中质押两种代币做市，获得LP，之后在挖矿池中质押LP获取挖矿奖励。
-#### **1.2设置挖矿池参数**
-1. Token地址：用户质押的合约地址。如果是**双币做市挖矿**则是LP池子地址。
-2. 开始时间：选择开始挖矿的时间，必须大于当前时间
-3. 时长：挖矿总天数，（整数单位）。
-4. 锁仓时间：用户质押余额锁定时间，须到期时间后才可取出。
-5. 邀请机制：是否开启邀请机制。
-6. 邀请比例：用户邀请下级代理后，奖励佣金比例。千分之单位，如（100，则是千分之100，假设A用户收益奖励1000个代币，则会将100个比转给邀请人）。
+- **Single currency pledge mining**: Encourage users to lock tokens and reduce circulating tokens; after creation, users only need to pledge one token to obtain mining income;
+- **Dual currency market-making mining**: Encourage users to make market for project tokens and improve the liquidity of tokens on the chain; after creation, users need to pledge two tokens in the liquidity pool to make market , to obtain LP, and then pledge LP in the mining pool to obtain mining rewards.
+#### **1.2 Set Mining Pool Parameters**
+1. Token address: the contract address that the user pledges. If it is **dual currency market making mining** it is the LP pool address.
+2. Start time: Select the time to start mining, which must be greater than the current time
+3. Duration: the total number of mining days, (integer units).
+4. Lock-up time: the lock-up time of the user's pledged balance, which can only be withdrawn after the expiration time.
+5. Invitation mechanism: Whether to enable the invitation mechanism.
+6. Invitation ratio: After the user invites the sub-agent, the reward commission ratio. The unit per thousand, such as (100, is 100 thousandths, assuming that user A rewards 1000 tokens, 100 ratios will be transferred to the inviter).
 
-## 第2步：奖励规则
+## Step 2: Reward Rules
 ![create-mining](../.gitbook/assets/mining/Snipaste_2022-06-20_16-39-49.png)
-1. 输入奖励合约地址，用户奖励质押给用户者。
-1. 输入每日奖励数量、奖励总数：参与挖矿用户的奖励是按照参与的资金比例，瓜分挖矿奖励。
-1. Logo、官网等扩展信息。
+1. Enter the address of the reward contract, and the user rewards those who pledge to the user.
+1. Enter the number of daily rewards and the total number of rewards: the rewards for participating mining users are divided according to the proportion of participating funds.
+1. Logo, official website and other extended information.
 
 
-## 第3步：确认完成
+## Step 3: Confirm completion
 
 ![create-mining](../.gitbook/assets/mining/Snipaste_2022-06-20_16-40-07.png)
 
-最后确认信息无误后**【授权】**和**【创建】**二步骤，点击“提交”后，MetaMask 现在会要求您确认交易。它还将向您显示您需要为该交易支付的费用。如果您同意，则单击“确认”按钮完成该过程，结果如下：
+After confirming that the information is correct, **[Authorize]** and **[Create]** two steps, after clicking "Submit", MetaMask will now ask you to confirm the transaction. It will also show you the fee you need to pay for the transaction. If you agree, then click the "Confirm" button to complete the process with the following result:
 
 ![create-mining](../.gitbook/assets/mining/Snipaste_2022-06-20_16-41-15.png)
-

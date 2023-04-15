@@ -1,103 +1,102 @@
-# 创建一个有[增发,假权限,回流本币]代币
+# Create a token with [additional issuance, false authority, backflow of local currency]
 
-> **TokenTool是一个区块链工具箱，支持ETH、BSC、等超多公链，可以创建多种不同机制模型代币，轻松解决发币问题，可在几分钟内创建一个属于你自己的Token。**
-
-
-> **点击加入 [TokenTool官方交流群](https://t.me/tokentool_app) 交流反馈**
-
-> **推荐使用电脑版谷歌浏览器 + `Metamask` 插件钱包 进行操作.**
-> **手机用户也可以在 `TP钱包`-发现-输入官网链接 进行操作.**
+> **TokenTool is a blockchain toolbox that supports ETH, BSC, and other super public chains. It can create a variety of model tokens with different mechanisms, and easily solve the problem of issuing tokens. You can create your own in a few minutes Token. **
 
 
-> **视频教程链接： [https://youtu.be/K0PExlXV0LI](https://youtu.be/K0PExlXV0LI)**
+> **Click to join [TokenTool Official Communication Group](https://t.me/tokentool_app) exchange feedback**
+
+> **It is recommended to use the computer version of Google Chrome + `Metamask` plug-in wallet for operation.**
+> **Mobile phone users can also operate in `TP wallet`-discovery-enter the official website link.**
 
 
-### 机制说明
+> **Video tutorial link: [https://youtu.be/K0PExlXV0LI](https://youtu.be/K0PExlXV0LI)**
 
-```
 
-税率分配营销 : 扣除代币,本币直接进入->进营销钱包
-可暂停交易：所有地址将无法转账、交易操作
-可铸币 : 管理员可增发代币。
-临时丢弃权限: 可以临时丢弃权限固定时间后找回
+### Mechanism Description
 
 ```
-> **⚠️注意：本版本创建的代币，会被合约检测机器人查出危险开关等信息。**
+
+Tax rate distribution marketing: deduction of tokens, local currency directly into -> into the marketing wallet
+Suspension of transactions: all addresses will not be able to transfer money, transaction operations
+Coinable: The administrator can issue additional tokens.
+Temporarily discard permissions: You can temporarily discard permissions and retrieve them after a fixed period of time
+
+```
+> **⚠️Note: The tokens created in this version will be detected by the contract detection robot for dangerous switches and other information. **
 
 
 
-## 代币基本信息
+## Token basic information
 
-首先我们通过可视化界面创建代币，通过 [https://www.tokentool.app/createToken/eth](https://www.tokentool.app/createToken/eth) 打开创建代币功能.填写代币信息.
+First, we create tokens through the visual interface, and open the token creation function through [https://www.tokentool.app/createToken/eth](https://www.tokentool.app/createToken/eth). Fill in the token information .
 
 ![create token](../.gitbook/assets/Snipaste_2021-10-24_12-49-37.png)
 
-参数介绍说明
+Parameter introduction
 
 
 
-**币种名称：** 代币的名称信息（如BitCoin）
+**Currency name:** The name information of the token (such as BitCoin)
 
-**币种符号：** 代币的符号信息（如BTC）
+**Currency symbol:** The symbol information of the token (such as BTC)
 
-**初始供应量：** 代币的总供应量（精度18位时，总供应量可以1后面15个0，精度17位时，总供应量可以1后面16个0，以此类推..）
+**Initial supply:** The total supply of tokens (when the precision is 18 digits, the total supply can be followed by 15 0s, when the precision is 17 digits, the total supply can be followed by 16 0s, and so on.. )
 
-**精度：** 代币的精度位数（精度是代表币的小数位数`如：0.000001`代表有6为精度）
+**Accuracy:** The number of digits of precision of the token (the precision is the number of decimal places representing the currency `for example: 0.000001` means that there are 6 digits of precision)
 
-**创建/拥有者：** 此代币的创建/拥有者，owner管理员，只有管理员才能进如管理员后台去修改手续费参数等操作
+**Creator/Owner:** The creator/owner of this token, the owner administrator, only the administrator can enter the administrator background to modify the handling fee parameters and other operations
 
-**手续费说明（设置的税针对：`买卖`，`转账`  都会收取税）：**
+**Description of handling fee (set tax for: `buy and sell`, `transfer` will charge tax):**
 
-​	**营销税：** 扣除税，本币进入营销地址
+​ **Marketing tax:** After deducting the tax, local currency enters the marketing address
 
-​	**销毁税：** 扣除税，每笔交易中会根据比例数量进行销毁基础代币，转入到`0x000000000000000000000000000000000000dead` 黑洞地址
-
-
+​ **Destruction tax:** Deduction of tax, the basic token will be destroyed according to the proportion of each transaction, and transferred to `0x000000000000000000000000000000000000dead` black hole address
 
 
 
-## Token管理员介绍
 
-成功创建了代币，生成了代币的地址：`0xb1d1502fa0e5791c655b8e62e189335a25ebc8d4` ，代币拥有者可通过 `token管理员` 功能进行代币管理
+
+## Token administrator introduction
+
+Successfully created the token and generated the token address: `0xb1d1502fa0e5791c655b8e62e189335a25ebc8d4`, the token owner can manage the token through the `token administrator` function
 
 ![create token](../.gitbook/assets/Snipaste_2021-10-24_13-04-20.png)
 
 
 
-**开启暂停交易：** 如果开启则当前代币无法进行转账操作（包括swap操作）
+**Enable suspension of transactions:** If enabled, the current token cannot be transferred (including swap operations)
 
-**黑名单添加/移除：** 通过添加地址，将过滤指定的地址无法参与代币的任何操作，如（科学家地址添加到黑名单中
+**Blacklist Add/Remove:** By adding an address, the specified address will be filtered and cannot participate in any operation of the token, such as (scientist address added to the blacklist
 
-**燃烧数量：** 缩量缩少代币的流通，将总量打入燃烧地址中。
+**Burning amount:** Shrink the circulation of tokens, and put the total amount into the burning address.
 
-**铸币数量：** 扩大供应量，铸币需要填写地址，将铸出来的币发送到某个地址中。
+**Number of minted coins:** To expand the supply, you need to fill in the address for minting coins, and send the minted coins to a certain address.
 
-**手续费说明（设置的税针对：`买卖`，`转账`  都会收取税）：**
+**Description of handling fee (set tax for: `buy and sell`, `transfer` will charge tax):**
 
-​	**营销税：** 扣除税，本币进入营销地址
+​ **Marketing tax:** After deducting the tax, local currency enters the marketing address
 
-​	**销毁税：** 扣除税，每笔交易中会根据比例数量进行销毁基础代币，转入到`0x000000000000000000000000000000000000dead` 黑洞地址
+​ **Destruction tax:** Deduction of tax, the basic token will be destroyed according to the proportion of each transaction, and transferred to `0x000000000000000000000000000000000000dead` black hole address
 
-**营销地址：** 可以二次修改营销地址。
+**Marketing address:** The marketing address can be modified twice.
 
-**临时放弃权限：** 可以临时丢弃权限，根据你设置多少时间单位，到时间之后，可以通过Token管理员页面取回来。
+**Temporarily give up permissions:** You can temporarily drop permissions, according to how many time units you set, after the time is up, you can get it back through the Token administrator page.
 
-### 常见问题解答
+### Frequently Asked Questions
 
-- **能解释一下税部分的设置吗？**
-  - 解答：税设置是针对 **`买卖`** 、 **`转账`** 操作收取的，营销税就是进入营销地址的，销毁税就是进入黑洞地址的。
-- **我可以单独设置买的税和卖的税不同吗？比如（买营销：1%，卖营销：2%）？**
-  - 解答：不可以，本版本 **`买卖`** 、 **`转账`** ，都是相同的，无法拆开，如需要设置不同，可以使用其他版本 如（V2，V3，版本发币）
--  **这个版本为什么没有swap平台可以选择？**
-  - 这个版本税的回流都是本币计算，所以你可以用任何 **`swap`** 添加池子，可以用任何 **`交易对`** 添加池子。
-
-
+- **Could you explain the setup of the tax section? **
+   - Answer: The tax setting is charged for **`Buy and Sell`** and **`Transfer`** operations, the marketing tax is entered into the marketing address, and the destruction tax is entered into the black hole address.
+- **Can I set the tax separately for buying and selling differently? For example (buying marketing: 1%, selling marketing: 2%)? **
+   - Answer: No, this version **`Business`** and **`Transfer`** are the same and cannot be disassembled. If you need to set differently, you can use other versions such as (V2, V3, version issued currency)
+- **Why is there no swap platform to choose in this version? **
+   - The reflow of this version tax is calculated in the local currency, so you can use any **`swap`** to add a pool, and you can use any **`trading pair`** to add a pool.
 
 
 
 
 
-> 原文链接：[https://docs.tokentool.app/token/create-token](https://docs.tokentool.app/token/create-token)
 
->视频教程链接： [https://youtu.be/K0PExlXV0LI](https://youtu.be/K0PExlXV0LI)
 
+> Original link: [https://docs.tokentool.app/token/create-token](https://docs.tokentool.app/token/create-token)
+
+>Video tutorial link: [https://youtu.be/K0PExlXV0LI](https://youtu.be/K0PExlXV0LI)

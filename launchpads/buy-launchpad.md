@@ -1,16 +1,16 @@
-# 如何购买预售
+# How to buy pre-sale
 
-如何参与 TokenTool 的预售
+How to Participate in the TokenTool Pre-Sale
 
-1. 转入到以下链接 [https://tokentool.app/launchpad/list](https://tokentool.app/launchpad/list) 所有的launchpad 列表页面
-1. 有4种预售状态：准备中，进行中，上市中，关闭。您只需购买处于【进行中】状态的预售。例如，“TT”预售目前正在【进行中】。选择要参与的项目，单击“ViewPool”。
-1. 点击“ViewPool（查看池）”后，您可以看到与该预售相关的所有信息。您应该在购买前仔细检查所有内容。
+1. Go to the following link [https://tokentool.app/launchpad/list](https://tokentool.app/launchpad/list) all launchpad list pages
+1. There are 4 pre-sale states: in preparation, in progress, on the market, and closed. You only need to buy pre-sales that are in the status of 【in progress】. For example, the "TT" pre-sale is currently [Ongoing]. Select the project you want to participate in, and click "ViewPool".
+1. After clicking "ViewPool", you can see all the information related to the pre-sale. You should check everything carefully before buying.
 
-4. 要购买预售，请在“数量”部分输入您要用于购买的 BNB（或 FTM、MATIC 或 ETH，具体取决于预售数量。相应的预售代币数量将自动计算在 BNB 数量之下。最后，点击“购买”按钮。
+4. To purchase the pre-sale, enter the BNB (or FTM, MATIC, or ETH, depending on the pre-sale amount) you want to use for the purchase in the "Quantity" section. The corresponding amount of pre-sale tokens will be automatically calculated between the amount of BNB Next, and finally, click the "Buy" button.
 
 ![buy-launchpad](../.gitbook/assets/launchpad/Snipaste_2022-05-08_19-37-55.png)
 
-5. MetaMask 现在会要求您确认交易。它还将向您显示您需要为该交易支付的费用。如果您同意，请单击“确认”按钮以完成该过程。
+5. MetaMask will now ask you to confirm the transaction. It will also show you the fee you need to pay for the transaction. If you agree, click the "Confirm" button to complete the process.
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-6. 购买后，您会看到 你的贡献的BNB发生了变化，显示了您购买的BNB余额。
+6. After purchasing, you will see that the BNB you contributed has changed, showing the BNB balance you purchased.
 
 
 
