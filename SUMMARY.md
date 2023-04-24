@@ -24,8 +24,8 @@
 
 ## Tokens <a href="#token" id="token"></a>
 
-* [Standard ERC20 Tokens](token/standard-token.md)
-* [Blacklist/Inflation/Fake Permission Tokens-V1](token/create-token.md)
+* [Standard ERC20 Tokens](token/create-token.md)
+* [Blacklist/Inflation/Fake Permission Tokens-V1](token/create-token1.md)
 * [Dual Marketing/Referral/Limit Purchase Tokens-V2](token/create-token2.md)
 * [Holding Dividend/Marketing/Referral Tokens-V3](token/create-token3.md)
 * [Pool-based Dividend/Marketing/Referral Tokens-V4](token/create-token4.md)
