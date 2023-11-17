@@ -33,7 +33,7 @@
 ## NFT <a href="#nft" id="nft"></a>
 
 * [Batch Send NFT](nft/nft-multiSender.md)
-* [NFT Collection](nft/nft-approval.md)
+* [NFT Collection](nft/nft-collection.md)
 * [Create standard NFT](nft/create-nft.md)
 
 ## Token Locks <a href="#lock" id="lock"></a>
