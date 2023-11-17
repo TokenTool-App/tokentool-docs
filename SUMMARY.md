@@ -51,12 +51,12 @@
 
 ## 批量操作 <a href="#multi" id="multi"></a>
 
-* [批量发送令牌](multi/multiSender.md)
+* [批量发送Token](multi/multiSender.md)
 * [批量检测钱包余额](multi/batchCheckBalance.md)
 * [批量生成钱包](multi/createWallet.md)
 * [令牌批量授权查询](multi/batch-approve.md)
-* [令牌批量归集](multi/batchCollection.md)
-* [令牌持有人扫描](multi/tokenHoldScan.md)
+* [Token批量归集](multi/batchCollection.md)
+* [Token持有人扫描](multi/tokenHoldScan.md)
 * [批量兑换(Swap)](multi/batchSwap.md)
 
 ## 其它 <a href="#other" id="other"></a>
