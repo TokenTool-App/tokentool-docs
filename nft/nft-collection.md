@@ -15,15 +15,15 @@ NFT 批量归集功能允许用户将存储在多个地址中的 NFT合并到一
 
 ## 第一步骤
 
-![image-20231117171115512](../.gitbook/assets/nft/image-20231117171115512.png)
+![nft-collection](../.gitbook/assets/nft/image-20231117171115512.png)
 
-1. 打开NFT批量归集功能链接页面 [https://tokentool.club/nft/NftMoreToOne/bsc](https://tokentool.club/nft/NftMoreToOne/bsc)
+1. 打开NFT批量归集功能链接页面 [https://tokentool.app/nft/NftMoreToOne/bsc](https://tokentool.app/nft/NftMoreToOne/bsc)
 2. 通过【import Account】按钮，导入需要归集的小号地址私钥。
 3. 输入要归集的NFT合约地址后，点击【Auto Get TokenId】自动获取地址的NFTID。
    1. 如未能获取到NFTID，请手动编辑每个地址中存在的ID值。
 4. 输入接收地址，发送到指定地址。
 
-![image-20231117172628892](../.gitbook/assets/nft/image-20231117172628892.png)
+![nft-collection](../.gitbook/assets/nft/image-20231117172628892.png)
 
 1. 开始归集操作，通过交易Hash，归集成功。
 

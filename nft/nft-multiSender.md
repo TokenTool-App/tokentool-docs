@@ -16,9 +16,9 @@ NFT的批量发送功能允许用户以一次性操作的方式向多个地址�
 
 ## 第一步骤
 
-![image-20231117161814363](../.gitbook/assets/nft/image-20231117161814363.png)
+![nft-multiSender](../.gitbook/assets/nft/image-20231117161814363.png)
 
-1. 打开批量发送NFT功能链接页面 https://tokentool.club/nft/multiSender/bsc
+1. 打开批量发送NFT功能链接页面 https://tokentool.app/nft/multiSender/bsc
 
 2. 粘贴要发送的NFT合约地址到输入框
 
@@ -28,18 +28,18 @@ NFT的批量发送功能允许用户以一次性操作的方式向多个地址�
    
 4. 也可以通过【Upload File】上传文件的xlsx表格的方式上传，格式需要根据[模版文件](https://tokentool.app/example.xlsx)的形式填入内容。
 
-![image-20231117162124689](../.gitbook/assets/nft/image-20231117162124689.png)
+![nft-multiSender](../.gitbook/assets/nft/image-20231117162124689.png)
 
 6. Address 为接收地址，Amount则是NFTID。
 
 ## 第二步骤
 
-![image-20231117162504488](../.gitbook/assets/nft/image-20231117162504488.png)
+![nft-multiSender](../.gitbook/assets/nft/image-20231117162504488.png)
 
 1. 确定发送地址、以及发送的NFTID
 2. 点击Approve进行授权操作。
 3. MetaMask 现在会要求您确认交易。如果您同意，请单击“确认”按钮以完成该过程。
 4. 完成Approve授权操作后，进入下一步骤批量发送NFT。
 
-![image-20231117163116173](../.gitbook/assets/nft/image-20231117163116173.png)
+![nft-multiSender](../.gitbook/assets/nft/image-20231117163116173.png)
 
