@@ -30,11 +30,11 @@
 * [Holding Dividend/Marketing/Referral Tokens-V3](token/create-token3.md)
 * [Pool-based Dividend/Marketing/Referral Tokens-V4](token/create-token4.md)
 
-## NFT
+## NFT <a href="#nft" id="nft"></a>
 
-* [Batch Send NFT](zh/nft-multiSender.md)
-* [NFT Authorization](zh/nft-approval.md)
-* [NFT Collection](zh/nft-collection.md)
+* [Batch Send NFT](nft/nft-multiSender.md)
+* [NFT Collection](nft/nft-approval.md)
+* [Create standard NFT](nft/create-nft.md)
 
 ## Token Locks <a href="#lock" id="lock"></a>
 

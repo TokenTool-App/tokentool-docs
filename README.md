@@ -22,7 +22,7 @@ A toolbox that makes it easier for more people to operate on the chain, batch qu
 >
 > [https://tokentool.app/nft/multiSender](https://tokentool.app/nft/multiSender) NFT Batch Sender
 >
-> [https://tokentool.app/nft/NftApproval](https://tokentool.app/nft/NftApproval) NFT Authorization
+> [https://tokentool.app/nft/createNft/eth](https://tokentool.app/nft/createNft/eth) Create standard NFT
 >
 > [https://tokentool.app/nft/NftMoreToOne](https://tokentool.app/nft/NftMoreToOne) NFT Batch Collection
 >
