@@ -32,9 +32,9 @@
 
 ## NFT
 
-* [NFT批量发送](zh/nft-multiSender.md)
-* [NFT授权](zh/nft-approval.md)
-* [NFT归集](zh/nft-collection.md)
+* [NFT批量发送](nft/nft-multiSender.md)
+* [NFT批量归集](nft/nft-collection.md)
+* [创建标准NFT](nft/nft-approval.md)
 
 ## 令牌锁 <a href="#lock" id="lock"></a>
 

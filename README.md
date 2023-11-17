@@ -25,17 +25,21 @@ TokenTool 区块链工具箱
 > 
 > [https://tokentool.app/nft/multiSender](https://tokentool.app/nft/multiSender) NFT批量发送
 >
-> [https://tokentool.app/nft/NftApproval](https://tokentool.app/nft/NftApproval) NFT授权
+> [https://tokentool.app/nft/createNft/eth](https://tokentool.app/nft/createNft/eth) 创建NFT
 >
 > [https://tokentool.app/nft/NftMoreToOne](https://tokentool.app/nft/NftMoreToOne) NFT批量归集
 >
 > 创建代币
+>
+> [https://tokentool.app/createToken/standard](https://tokentool.app/createToken/standard) 标准代币版本
 >
 > [https://tokentool.app/createToken/eth](https://tokentool.app/createToken/eth) 一键发币V1
 >
 > [https://tokentool.app/createToken/V2](https://tokentool.app/createToken/V2) 一键发币含手续费V2
 >
 > [https://tokentool.app/createToken/V3](https://tokentool.app/createToken/V3)  一键发分红币V3
+> 
+>[https://tokentool.app/createToken/V3](https://tokentool.app/createToken/V4)  加池子分红V4
 >
 > Token锁
 >
