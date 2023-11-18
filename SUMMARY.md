@@ -56,7 +56,7 @@
 * [批量生成钱包](multi/createWallet.md)
 * [令牌批量授权查询](multi/batch-approve.md)
 * [Token批量归集](multi/batchCollection.md)
-* [Token持有人扫描](multi/tokenHoldScan.md)
+* [Token/NFT持有人扫描](multi/tokenHoldScan.md)
 * [批量兑换(Swap)](multi/batchSwap.md)
 
 ## 其它 <a href="#other" id="other"></a>
