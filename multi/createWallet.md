@@ -9,7 +9,7 @@
 - **多链管理**：管理来自不同公链的加密资产，例如 BTC、ETH、BNB、TRX、DOT 等。
 - **多账户需求**：为多个链创建钱包地址，以便于隔离和管理不同链上的资产。
 
-![image-20231118130235971](/Users/xiaoyunhui/Library/Application Support/typora-user-images/image-20231118130235971.png)
+![image-20231118130235971](../.gitbook/assets/multi/image-20231118130235971.png)
 
 #### 操作步骤：
 
@@ -20,3 +20,4 @@
 #### 注意事项：
 - **建议打开平台网页后断开网络进行生成地址操作**
 - **生成后的地址建议离线保存**
+
