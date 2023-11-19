@@ -21,16 +21,16 @@
 1. 导航到菜单功能中【[钱包多对多转账](https://tokentool.app/batchTransfer/okt)】功能 [https://tokentool.app/batchTransfer/okt](https://tokentool.app/batchTransfer/okt)
 
 2. 导入发送地址私钥（**注意是私钥0x....格式，不是英文词**）
-3. 导入接收地址
+3. 导入接收地址(**注意：接收地址是发送的地址，这样就形成了自己个自己转账**)
 
-![image-20231119134908370](../.gitbook/assets/common-problem/image-20231119134908370.png)
+![image](../.gitbook/assets/common-problem/image-20231119134908370.png)
 
 4. 点击设置参数
    1. RPC地址：如有私人RPC地址可切换RPC地址，防止使用公共地址卡链。
    2. 随机延迟（秒）：每次执行一笔交易之后是否需要延迟等待。
    3. 循环次数：一个地址循环发送次数（根据gas手续费和自己要Mint操作调整）。
 
-![image-20231119135208991](../.gitbook/assets/common-problem/image-20231119135208991.png)
+![image](../.gitbook/assets/common-problem/image-20231119135208991.png)
 
 5. 选中地址点击【执行批量调用】操作
 
@@ -42,11 +42,11 @@
 
 7. 点击开始执行，将自动完成发送操作，
 8. 
-9. ![image-20231119140059462](../.gitbook/assets/common-problem/image-20231119140059462.png)
+9. ![image](../.gitbook/assets/common-problem/image-20231119140059462.png)
 
 
 
-![image-20231119140240915](../.gitbook/assets/common-problem/image-20231119140240915.png)
+![image](../.gitbook/assets/common-problem/image-20231119140240915.png)
 
  可以点击查看日志按钮查看发送的交易Hash值。
 
