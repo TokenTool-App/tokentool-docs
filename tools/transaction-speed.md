@@ -10,7 +10,7 @@
 
 #### 1. 进入设置 -> 高级
 
-<img src="../.gitbook/assets/tools/image-20231120191609654.png" alt="image-20231120191609654" style="zoom:60%;" /><img src="../.gitbook/assets/tools/image-20231120191650805.png" alt="image-20231120191650805" style="zoom:60%;" />
+<img src="../.gitbook/assets/tools/image-20231120191609654.png" alt="tools" style="zoom:60%;" /><img src="../.gitbook/assets/tools/image-20231120191650805.png" alt="tools" style="zoom:60%;" />
 
 #### 2.开启自定义交易
 ![tools](../.gitbook/assets/tools/image-20231120191823950.png)
