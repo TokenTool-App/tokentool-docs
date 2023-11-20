@@ -68,6 +68,10 @@
 * [IPFS](other/ipfs.md)
 * [最新汽油费](zh/gasPrice.md)
 
+## 小工具 <a href="#tools" id="tools"></a>
+
+* [交易加速](tools/transaction-speed.md)
+
 
 ## 常见问题/常见错误 <a href="#common-problem" id="common-problem"></a>
 
