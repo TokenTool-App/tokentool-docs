@@ -29,7 +29,7 @@
 * [双营销/回流/限购代币-V2](token/create-token2.md)
 * [持币分红/营销/回流代币-V3](token/create-token3.md)
 * [加池分红/营销/回流代币-V4](token/create-token4.md)
-* [SOL链创建代币](token/create-sol-token.md)
+* [Solana一键创建标准代币](token/create-sol-token.md)
 
 ## NFT
 
