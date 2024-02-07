@@ -29,12 +29,13 @@
 * [双营销/回流/限购代币-V2](token/create-token2.md)
 * [持币分红/营销/回流代币-V3](token/create-token3.md)
 * [加池分红/营销/回流代币-V4](token/create-token4.md)
+* [SOL链创建代币](token/create-sol-token.md)
 
 ## NFT
 
 * [NFT批量发送](nft/nft-multiSender.md)
 * [NFT批量归集](nft/nft-collection.md)
-* [创建标准NFT](nft/nft-approval.md)
+* [创建标准NFT](nft/create-nft.md)
 
 ## 令牌锁 <a href="#lock" id="lock"></a>
 
@@ -70,7 +71,8 @@
 
 ## 小工具 <a href="#tools" id="tools"></a>
 
-* [交易加速](tools/transaction-speed.md)
+* [交易加速](tools/tx-speed.md)
+* [取消交易](tools/tx-speed.md)
 
 
 ## 常见问题/常见错误 <a href="#common-problem" id="common-problem"></a>
