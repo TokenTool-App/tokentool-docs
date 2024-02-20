@@ -31,7 +31,7 @@
 * [加池分红/营销/回流代币-V4](token/create-token4.md)
 * [Solana一键创建标准代币](token/create-sol-token.md)
 
-## 代币 <a href="#sol" id="sol"></a>
+## SOL <a href="#sol" id="sol"></a>
 
 * [幻影钱包Phantom安装教程](sol/phantom-wallet.md)
 * [Orca创建流动性教程](sol/create-orca-pool.md)

@@ -4,7 +4,7 @@ Orca是Sol链上较为知名的去中心化交易所之一，和Raydium相比，
 
 下面教大家通过Orca创建流动性资金池：
 
-打开网页：https://www.orca.so/create-pool，填写相应的代币信息：
+打开网页：[https://www.orca.so/create-pool](https://www.orca.so/create-pool)，填写相应的代币信息：
 
 ![img](../.gitbook/assets/sol/Orca.jpg)
 
@@ -26,7 +26,7 @@ Orca是Sol链上较为知名的去中心化交易所之一，和Raydium相比，
 
 **池子做好之后，应该如何查看？**
 
-我们打开页面：https://v1.orca.so/liquidity ，重新连接钱包（如果已经连接，则不需要）
+我们打开页面：[https://v1.orca.so/liquidity](https://v1.orca.so/liquidity) ，重新连接钱包（如果已经连接，则不需要）
 
 ![img](../.gitbook/assets/sol/Orca3.png)
 
@@ -36,11 +36,11 @@ Orca是Sol链上较为知名的去中心化交易所之一，和Raydium相比，
 
 ![img](../.gitbook/assets/sol/Orca5.png)
 
-如果你想撤池子，可以点击你的交易对，选择**提取**流动性（如果想继续加池子，就选择**存入**）
+如果你想撤池子，可以点击你的交易对，选择 **提取** 流动性（如果想继续加池子，就选择 **存入**）
 
 ![img](../.gitbook/assets/sol/Orca6.png)
 
-之后，按照页面需要，选择撤出的流动性比例，再点击**Withdraw，**钱包确认并支付gas即可
+之后，按照页面需要，选择撤出的流动性比例，再点击 **Withdraw，** 钱包确认并支付gas即可
 
 ![img](../.gitbook/assets/sol/Orca7.png)
 
