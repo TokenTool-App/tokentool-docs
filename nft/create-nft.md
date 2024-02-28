@@ -24,7 +24,7 @@
 
 ## NFT基本信息
 
-![image-20231204120545322](/Users/xiaoyunhui/Library/Application Support/typora-user-images/image-20231204120545322.png)
+![image-20231204120545322](../.gitbook/assets/nft/image-20231204120545322.png)
 
 1. 使用MetaMask/或其他Web3插件钱包进行连接网络。
 2. 打开创建NFT菜单功能页面 [https://tokentool.app/nft/createNft/eth](https://tokentool.app/nft/createNft/eth)
