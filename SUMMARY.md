@@ -36,6 +36,7 @@
 * [幻影钱包Phantom安装教程](sol/phantom-wallet.md)
 * [Orca创建流动性教程](sol/create-orca-pool.md)
 * [Raydium创建流动性教程](sol/raydium.md)
+* [燃烧销毁Token/LP教程](sol/burn-assets.md)
 
 ## NFT
 
