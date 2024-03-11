@@ -39,9 +39,11 @@ Solana链的代币无开源一说。
 
 ## 代币基本信息
 
-首先我们通过可视化界面创建代币，通过 [https://tokentool.club/createToken/sol](https://tokentool.club/createToken/sol) 打开创建代币功能.填写代币信息.
+首先我们通过可视化界面创建代币，通过 [https://tokentool.app/createToken/sol](https://tokentool.app/createToken/sol) 打开创建代币功能.填写代币信息.
 
-![image-20240207202146702](../.gitbook/assets/sol/image-20240207202146702.png)
+
+
+![image-20240311220154191](../.gitbook/assets/sol/image-20240311220154191.png)
 
 **币种名称：** 代币的名称信息（如BitCoin）
 
@@ -55,11 +57,19 @@ Solana链的代币无开源一说。
 
 **LOGO：** 代币头像，可在钱包中显示logo代币图片（注意上传的图片大小不可超过100KB大小）
 
+**webSite：** 官网链接地址（如果没有可以不填写）
+
+**Twitter：** 推特地址（如果没有可以不填写）
+
+**Telegram：** 电报地址（如果没有可以不填写）
+
+
+
 ##### 4. 点击确认按钮创建。
 
 ![1707309643139](../.gitbook/assets/sol/1707309643139.jpg)
 
-##### 4. 创建完成后，上传头像LOGO上链确认，点击"Upload Logo"按钮再次进行钱包确认，上传logo信息。
+##### 4. 创建完成后，请复制好合约地址即可
 
 ![image-20240207204518029](../.gitbook/assets/sol/image-20240207204518029.png)
 
@@ -68,7 +78,7 @@ Solana链的代币无开源一说。
 
 ## Token管理员
 
-查看以下步骤，了解如何使用 MetaMask 通过 TokenTool 进入Token管理员页面。
+查看以下步骤，了解如何使用 Phantom 通过 TokenTool 进入Token管理员页面。
 
 
 ##### 1. 点击管理员菜单栏
@@ -77,11 +87,14 @@ Solana链的代币无开源一说。
 
 ##### 2. 粘贴合约地址点击确认进入管理员页面
 
-![image-20240207204834319](../.gitbook/assets/sol/image-20240207204834319.png)
+![image-20240311220413393](../.gitbook/assets/sol/image-20240311220413393.png)
 
 
-1. **销毁权限：** 将owner地址销毁
-2. **更新logo：** 在创建时未及时上传图标信息时，可以在管理员页面进行继续上传操作（注意：如果已经上传过图片请勿在二次上传）
+1. **销毁冻结权限：** 将黑名单权限销毁
+2. **销毁增发权限：** 将增发代币的权限销毁
+3. **更新logo：** 修改logo图片，以及币的名称和简称，官网地址链接信息等等。SOL链不同在创建完成后还可以修改名称和简称以及logo图片。
+4. **黑名单操作：** 可以对某个地址加入黑名单，加入黑名单后，该地址无法转出和买卖代币。
+5. **铸币操作：** 如在未放弃增发权限时，你可以增发固定代币数量，到指定地址。
 
 
 
@@ -91,7 +104,7 @@ Solana链的代币无开源一说。
   - <img src="../.gitbook/assets/sol/image-20240207205411245.png" alt="image-20240207205411245" style="zoom: 70%;" /><img src="../.gitbook/assets/sol/image-20240207205500125.png" alt="image-20240207205500125" style="zoom:70%;" />
 
 - **token权限都有什么作用**
-	- 解答：权限分2种，增发代币 和 冻结用户地址的Token，目前此类功能未开放，但会根据用户需求，在适当时间开放该功能
+  - 解答：权限分2种，增发代币 和 冻结用户地址的Token，目前此类功能未开放，但会根据用户需求，在适当时间开放该功能
 
 - **我能在那些Swap添加流动性？**
   - 解答：Solana链代币无任何机制，可以在任何swap上加池子，常用的交易平台有 **[Meteora](https://app.meteora.ag/)、[Orca](https://www.orca.so/create-pool)、[Raydium](https://raydium.io/create-market/)**
@@ -101,7 +114,7 @@ Solana链的代币无开源一说。
 
 - **无税模板有开关吗?**
   - 解答：无税模板没有任何开关
-  
+
 - **在创建时我忘记上传logo，对话框已经被关闭了，怎么办?**
   - 解答：可以通过合约地址进入管理员页面，进行重新上传logo步骤。
 
@@ -109,6 +122,9 @@ Solana链的代币无开源一说。
   - 解答：可以通过钱包记录查看，或通过[浏览器](https://solscan.io/)[https://solscan.io/](https://solscan.io/)地址，输入钱包地址后进行查询token信息。
 - **上传logo和更新资料要收费？**
   - 解答：由于Solana链的不同，token的信息需要被存储在Arweave(AR)永久存储链后，在进行把信息发送到Solana链上，在传输至链上，因此需要收取一些存储费用
+- **如何燃烧代币或者池子**
+  - 如果你要燃烧代币或者池子，你需要找到对应的账户地址，可以查看关于如何燃烧币或池子教程[https://docs.tokentool.app/sol/burn-assets](https://docs.tokentool.app/sol/burn-assets)
+
 
 
 > 原文链接：[https://docs.tokentool.app/token/sol](https://docs.tokentool.app/token/sol)
