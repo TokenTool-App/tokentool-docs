@@ -37,6 +37,7 @@
 * [Orca创建流动性教程](sol/create-orca-pool.md)
 * [Raydium创建流动性教程](sol/raydium.md)
 * [燃烧销毁Token/LP教程](sol/burn-assets.md)
+* [Raydium创建廉价的市场ID](sol/cheap-raydium.md)
 
 ## NFT
 
