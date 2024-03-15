@@ -104,7 +104,7 @@ Solana链的代币无开源一说。
   - <img src="../.gitbook/assets/sol/image-20240207205411245.png" alt="image-20240207205411245" style="zoom: 70%;" /><img src="../.gitbook/assets/sol/image-20240207205500125.png" alt="image-20240207205500125" style="zoom:70%;" />
 
 - **token权限都有什么作用**
-  - 解答：权限分2种，增发代币 和 冻结用户地址的Token，目前此类功能未开放，但会根据用户需求，在适当时间开放该功能
+  - 解答：权限分2种，增发代币 和 冻结用户地址的Token，功能已开放，进入管理员页面进行操作，黑名单可以添加/移除某个指定地址，增发可以增发代币到某个指定地址。
 
 - **我能在那些Swap添加流动性？**
   - 解答：Solana链代币无任何机制，可以在任何swap上加池子，常用的交易平台有 **[Meteora](https://app.meteora.ag/)、[Orca](https://www.orca.so/create-pool)、[Raydium](https://raydium.io/create-market/)**
