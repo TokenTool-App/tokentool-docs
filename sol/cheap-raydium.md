@@ -87,5 +87,6 @@
   - 你可以联系我们管理员帮你查看，你也可以通过区块链浏览器[https://solscan.io/](https://solscan.io/)搜索你的钱包地址，查询到如下图片所示的信息，复制这个Market地址就是你的市场ID了。
   - ![image-20240315231751105](../.gitbook/assets/sol/image-20240315231751105.png)
 - **在加池子的时候出现以下情况错误如何处理？ **
-  ![image-20240316111837451](../.gitbook/assets/sol/image-20240316111837451.png)
+
+![image-20240316111837451](../.gitbook/assets/sol/image-20240316111837451.png)
   - 因为你的token管理员权限没丢，请到[Token管理员页面](https://tokentool.app/createToken/sol)[https://tokentool.app/createToken/sol](https://tokentool.app/createToken/sol)，放弃冻结和增发权限。
