@@ -27,7 +27,7 @@ Raydium是SOL链上比较大的去中心化交易所，任何人都可以在上�
 
 ### 2、加池子
 
-创建OpenBook市场后，将会跳转到Raydium的[流动性页面](https://raydium.io/liquidity/)。页面向下滚动并单击底部的“创建池”按钮。
+创建OpenBook市场后，将会跳转到Raydium的[流动性页面](https://raydium.io/liquidity/add/)。[https://raydium.io/liquidity/add/](https://raydium.io/liquidity/add/)页面向下滚动并单击底部的“创建池”按钮。
 
 - 注意：如果没有获得OpenBook市场ID，是不能添加流动性的
 

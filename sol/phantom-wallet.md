@@ -8,7 +8,7 @@ Phantom中文称之为“”幻影钱包”，是一个浏览器插件，可以�
 
 目前，Phantom已成为用户参与Solana区块链时的首选钱包。如果你想使用TokenTool工具发行代币，就必须先安装Phantom钱包，下面给大家介绍一下安装教程：
 
-1. 首先打开 Phantom 钱包官网：https://phantom.app/，点击“Download For Chrome”。
+1. 首先打开 Phantom 钱包官网：[https://phantom.app/](https://phantom.app/)，点击“Download For Chrome”。
 
 
 ![img](../.gitbook/assets/sol/phantom1.png)
