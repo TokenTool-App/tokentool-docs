@@ -30,7 +30,7 @@
 
 查看以下步骤，了解如何使用 MetaMask 通过 TokenTool 创建带有买卖费率令牌币。
 
-1. 首先我们通过可视化界面创建代币，通过 [https://www.tokentool.app/createToken/v2](https://www.tokentool.app/createToken/v2) 打开创建代币功能.填写代币信息.
+1. 首先我们通过可视化界面创建代币，通过 [https://www.tokentool.info/createToken/v2](https://www.tokentool.info/createToken/v2) 打开创建代币功能.填写代币信息.
 
 ![create token ](../.gitbook/assets/v2/Snipaste_2022-05-03_14-39-31.png)
 
@@ -139,6 +139,6 @@
 
 > 引用地址
 
-> 创建代币地址：[https://www.tokentool.app/createToken/v2](https://www.tokentool.app/createToken/v2) 
+> 创建代币地址：[https://www.tokentool.info/createToken/v2](https://www.tokentool.info/createToken/v2) 
 
 > YouTube教学视频：[https://youtu.be/zPVY_oZH5qo](https://youtu.be/zPVY_oZH5qo)  

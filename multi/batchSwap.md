@@ -11,9 +11,9 @@
 
 ### 在TokenTool Swap批量兑换交易
 
-1. [在这里进入兑换页面。](https://tokentool.app/batchSwap/bsc)[https://tokentool.app/batchSwap/bsc](https://tokentool.app/batchSwap/bsc)
+1. [在这里进入兑换页面。](https://tokentool.info/batchSwap/bsc)[https://tokentool.info/batchSwap/bsc](https://tokentool.info/batchSwap/bsc)
 
-2. 如果您还没链接钱包，在您的右上角点击链接钱包。也可以通过[快捷网络添加](https://tokentool.app/other/chainList)。快速的链接与区块链网络链接。
+2. 如果您还没链接钱包，在您的右上角点击链接钱包。也可以通过[快捷网络添加](https://tokentool.info/other/chainList)。快速的链接与区块链网络链接。
 
 3. 从按钮部分的位置选择您要交易的代币，默认选择为BNB。
 
@@ -87,12 +87,12 @@
 
 > 引用地址：
 >
-> [https://tokentool.app/batchSwap/bsc](https://tokentool.app/batchSwap/bsc) 批量Swap兑换
+> [https://tokentool.info/batchSwap/bsc](https://tokentool.info/batchSwap/bsc) 批量Swap兑换
 > 
-> [https://tokentool.app/oneToMore/bsc](https://tokentool.app/oneToMore/bsc) 批量发送代币
+> [https://tokentool.info/oneToMore/bsc](https://tokentool.info/oneToMore/bsc) 批量发送代币
 > 
-> [https://tokentool.app/batchCollection/bsc](https://tokentool.app/batchCollection/bsc) 批量归集代币
+> [https://tokentool.info/batchCollection/bsc](https://tokentool.info/batchCollection/bsc) 批量归集代币
 > 
-> [https://tokentool.app/createWallet/bsc](https://tokentool.app/createWallet/bsc) 批量创建钱包
+> [https://tokentool.info/createWallet/bsc](https://tokentool.info/createWallet/bsc) 批量创建钱包
 > 
 >  [https://youtu.be/A7wKrW3k24I](https://youtu.be/A7wKrW3k24I) 视频教程

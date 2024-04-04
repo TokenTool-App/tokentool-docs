@@ -18,7 +18,7 @@ NFT的批量发送功能允许用户以一次性操作的方式向多个地址�
 
 ![nft-multiSender](../.gitbook/assets/nft/image-20231117161814363.png)
 
-1. 打开批量发送NFT功能链接页面 [https://tokentool.app/nft/multiSender/bsc](https://tokentool.app/nft/multiSender/bsc)
+1. 打开批量发送NFT功能链接页面 [https://tokentool.info/nft/multiSender/bsc](https://tokentool.info/nft/multiSender/bsc)
 
 2. 粘贴要发送的NFT合约地址到输入框
 
@@ -26,7 +26,7 @@ NFT的批量发送功能允许用户以一次性操作的方式向多个地址�
    1. 格式使用：地址,NFTID (⚠️注意逗号为英文逗号符)
    1. 例子中：`0xd41b9AC5767cd90AbC7C997730591cBb7223D3D9,1` 将NFTID为1的NFT发送给 `...3D3D9`地址
    
-4. 也可以通过【Upload File】上传文件的xlsx表格的方式上传，格式需要根据[模版文件](https://tokentool.app/example.xlsx)的形式填入内容。
+4. 也可以通过【Upload File】上传文件的xlsx表格的方式上传，格式需要根据[模版文件](https://tokentool.info/example.xlsx)的形式填入内容。
 
 ![nft-multiSender](../.gitbook/assets/nft/image-20231117162124689.png)
 

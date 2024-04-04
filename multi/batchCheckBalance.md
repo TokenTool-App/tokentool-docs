@@ -15,7 +15,7 @@
 
 ![batchCheckBalance](../.gitbook/assets/multi/image-20231118203333113.png)
 
-1. [导航到批量查询钱包余额菜单](https://tokentool.app/batchCheckBalance/eth)[https://tokentool.app/batchCheckBalance/eth](https://tokentool.app/batchCheckBalance/eth)
+1. [导航到批量查询钱包余额菜单](https://tokentool.info/batchCheckBalance/eth)[https://tokentool.info/batchCheckBalance/eth](https://tokentool.info/batchCheckBalance/eth)
 2. 粘贴要查询的ERC20标准代币合约地址，默认为空查询本链币余额。（如Ethereum链查询的是ETH余额）
 
 ![batchCheckBalance](../.gitbook/assets/multi/image-20231118203658862.png)

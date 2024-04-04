@@ -20,10 +20,10 @@
 
 ## 如何创建我的令牌锁?
 
-导航到 [https://tokentool.app/lock/create](https://tokentool.app/lock/create) 并按照以下步骤简单程序进行操作：
+导航到 [https://tokentool.info/lock/create](https://tokentool.info/lock/create) 并按照以下步骤简单程序进行操作：
 
 1. 链接你的钱包。
-2. 前往[https://tokentool.app/lock/create](https://tokentool.app/lock/create)
+2. 前往[https://tokentool.info/lock/create](https://tokentool.info/lock/create)
 3. 输入您的令牌合约地址后，将会显示您的代币信息与代币余额。
 4. 输入您要锁定的令牌代币余额数量，并选择锁定直到某个时间点解锁代币时间
 

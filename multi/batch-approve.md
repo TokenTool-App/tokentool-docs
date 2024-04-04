@@ -28,7 +28,7 @@
 
 ## 解决方法
 
-使用币工具 [https://TokenTool.App](https://tokentool.app) 或者 [https://TokenTool.App/approve/eth](https://tokentool.app/approve/eth) 进行查询地址授权信息。
+使用币工具 [https://TokenTool.Info](https://tokentool.info) 或者 [https://TokenTool.Info/approve/eth](https://tokentool.info/approve/eth) 进行查询地址授权信息。
 
 ![cointool](../.gitbook/assets/Snipaste_2021-09-29_15-10-52.png)
 
@@ -47,7 +47,7 @@
 0000000000000000000000000000000000000000000000000000000000000000 // 授权额度(0)
 ```
 
-> 原文链接：[https://docs.tokentool.app/learn/batch-approve](https://github.com/TokenTool-App/tokentool-docs/blob/main/learn/batch-approve.md)
+> 原文链接：[https://docs.tokentool.info/learn/batch-approve](https://github.com/TokenTool-App/tokentool-docs/blob/main/learn/batch-approve.md)
 >
 > 引用参考知识
 >

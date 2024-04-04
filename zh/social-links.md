@@ -1,4 +1,4 @@
-- website: [https://tokentool.app](https://tokentool.app)
+- website: [https://tokentool.info](https://tokentool.info)
 - telegram: [https://t.me/tokentool_app](https://t.me/tokentool_app)
 - Twitter: [https://twitter.com/tokentool_app](https://twitter.com/tokentool_app)
 - Github: [https://github.com/tokenTool-App](https://github.com/tokenTool-App)

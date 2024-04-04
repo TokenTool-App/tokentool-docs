@@ -30,7 +30,7 @@ USDT类似。检测没有任何机制。
 
 ## 代币基本信息
 
-首先我们通过可视化界面创建代币，通过 [https://tokentool.app/createToken/standard](https://tokentool.app/createToken/standard) 打开创建代币功能.填写代币信息.
+首先我们通过可视化界面创建代币，通过 [https://tokentool.info/createToken/standard](https://tokentool.info/createToken/standard) 打开创建代币功能.填写代币信息.
 
 ![create token](../.gitbook/assets/standard/Snipaste_2023-04-13_11-17-09.png)
 
@@ -73,5 +73,5 @@ USDT类似。检测没有任何机制。
 
 
 
-> 原文链接：[https://docs.tokentool.app/token/standard](https://docs.tokentool.app/token/standard)
+> 原文链接：[https://docs.tokentool.info/token/standard](https://docs.tokentool.info/token/standard)
 

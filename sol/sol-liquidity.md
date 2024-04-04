@@ -1,14 +1,12 @@
-# Raydium创建流动性(做池子)教程
+# SOL流动性管理教程
 
 
 
-Sol链上最大DEX
+Raydium是SOL链上比较大的去中心化交易所，任何人都可以在上面创建流动性资金池。一旦创建了池子，它就可以立即在Raydium交换界面上交易。由于SOL网络拥堵，Raydium卡顿，无法显示流动性等信息。TokenTool 专门开发了SOL流动性管理工具，可在几秒钟内即可非常轻松地创建、添加和删除您的流动资金池！
 
-Raydium是SOL链上比较大的去中心化交易所，任何人都可以在上面创建流动性资金池。一旦创建了池子，它就可以立即在Raydium交换界面上交易。
+以下是SOL流动性管理的教程：
 
-以下是Raydium做池子的教程：
-
-### 1、获取OpenBook市场ID
+### 1、创建流动性
 
 
 - 在此链接处创建OpenBook市场ID：[https://raydium.io/create-market/](https://raydium.io/create-market/)
@@ -17,17 +15,9 @@ Raydium是SOL链上比较大的去中心化交易所，任何人都可以在上�
 
 - 想要低价格创建OpenBook市场ID，可查看[廉价ID创建教程](https://docs.tokentool.info/sol/cheap-raydium)[https://docs.tokentool.info/sol/cheap-raydium](https://docs.tokentool.info/sol/cheap-raydium)
 
-![image-20240306203034716](../.gitbook/assets/sol/image-20240306203034716.png)
 
 
-
-**选择代币：**基础代币就是你自己发行的代币，报价代币就是Sol或者USDT或者USDC等
-
-**最小订单量：**每次交易可以允许的最小订单，以“BTC/USDC”这个交易对为例。如果这里设置0.0001，就意味着用户单次交易不得少于0.0001个BTC。理论上来说，这个数量越小越好
-
-**最小价格变动幅度：**每次交易价格波动的范围，一般来说不得超过你代币初始价格的千分之一。假设你是用USDC做池子，代币上线价格是1U，那么这个数值要小于0.001。如果是用SOL做池子，代币上线价格同样为1U的话，这个数值应该小于0.00001.（以Sol价格为100U为例）
-
-### 2、加池子
+### 2、移除流动性
 
 创建OpenBook市场后，将会跳转到Raydium的[流动性页面](https://raydium.io/liquidity/add/)。[https://raydium.io/liquidity/add/](https://raydium.io/liquidity/add/)页面向下滚动并单击底部的“创建池”按钮。
 

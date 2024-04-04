@@ -5,7 +5,7 @@
 ## 第1步：挖矿规则
 
 1. 链接你的钱包。
-2. 前往[https://tokentool.app/mining/list](https://tokentool.app/mining/list) 创建挖矿页面。
+2. 前往[https://tokentool.info/mining/list](https://tokentool.info/mining/list) 创建挖矿页面。
 3. 点击创建挖矿
 
 ![create-mining](../.gitbook/assets/mining/Snipaste_2022-06-20_16-37-44.png)

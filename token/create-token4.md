@@ -28,7 +28,7 @@
 查看以下步骤，了解如何使用PC电脑端的Matamask钱包通过TokenTool创建持币分红代币。
 
 1. MateMask钱包链接到区块链网络。
-2. 打开创建代币链接地址 [https://tokentool.app/createToken/v4](https://tokentool.app/createToken/v4)
+2. 打开创建代币链接地址 [https://tokentool.info/createToken/v4](https://tokentool.info/createToken/v4)
 3. 输入必要的信息，在此之前，让我们回顾一下所有需要填写的重要字段：
 
 

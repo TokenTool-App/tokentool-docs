@@ -27,10 +27,10 @@
 ![image-20231204120545322](../.gitbook/assets/nft/image-20231204120545322.png)
 
 1. 使用MetaMask/或其他Web3插件钱包进行连接网络。
-2. 打开创建NFT菜单功能页面 [https://tokentool.app/nft/createNft/eth](https://tokentool.app/nft/createNft/eth)
+2. 打开创建NFT菜单功能页面 [https://tokentool.info/nft/createNft/eth](https://tokentool.info/nft/createNft/eth)
 3. **NFT名称** ：代表NFT的名称信息（例如 CryptoPunks）
 4. **NFT简称** ：代表NFT的简称（例如 WPUNKS）
-5. **元数据链接** ：元数据链接是指一个指向NFT相关信息的链接或URI。它在NFT创建时被赋予，通常指向存储在IPFS（或其他去中心化存储）上的元数据文件。（关于更多元数据制作，可查看[元数据制作教程](https://docs.tokentool.app/common-problem/generate-metadata))
+5. **元数据链接** ：元数据链接是指一个指向NFT相关信息的链接或URI。它在NFT创建时被赋予，通常指向存储在IPFS（或其他去中心化存储）上的元数据文件。（关于更多元数据制作，可查看[元数据制作教程](https://docs.tokentool.info/common-problem/generate-metadata))
 6. **文件格式**：元数据文件后缀格式，（通常后缀使用.json格式）
 
 
@@ -47,14 +47,14 @@
 1. **开始时间/结束时间**：铸造NFT在开始和结束时间内进行铸造NFT操作。
 1. **白名单地址列表**：开启白名单后，只有白名单有资格的地址才能进行铸造NFT。
 
-⚠️**注意：以上参数（除总供应量外）都可通过[NFT管理员](https://tokentool.app/nft/nftAdmin)控制面板重新修改。**
+⚠️**注意：以上参数（除总供应量外）都可通过[NFT管理员](https://tokentool.info/nft/nftAdmin)控制面板重新修改。**
 
 
 ## NFT媒体信息
 ![image-20231205131437426](../.gitbook/assets/nft/image-20231205131437426.png)
 
 1. 媒体信息用于在NFT铸造页面显示。
-2. **logo/背景图片**：使用[IPFS文件系统](https://tokentool.app/other/ipfs)上传功能上传图片信息。
+2. **logo/背景图片**：使用[IPFS文件系统](https://tokentool.info/other/ipfs)上传功能上传图片信息。
 
 
 
@@ -64,7 +64,7 @@
 
 1. MetaMask钱包链接网络
 
-2. 例如[例子](https://tokentool.app/nft/mint/0x6974bCb700eDeDA5Cc1BfB0929c8D7e10607B470-56)显示的NFT铸造页面，通过铸造按钮点击。
+2. 例如[例子](https://tokentool.info/nft/mint/0x6974bCb700eDeDA5Cc1BfB0929c8D7e10607B470-56)显示的NFT铸造页面，通过铸造按钮点击。
 
    
 
@@ -76,7 +76,7 @@
 - **IPFS文件系统是什么？**
   - 解答：可以理解成是一个去中性化的文件存储系统，详细资料信息可以通过[IPFS文件系统](https://ipfs.tech/)查看。
 - **如何制作元数据链接？**
-  - 解答：通过图片上传到IPFS后，在通过图片的IPFS的Hash值来生成元数据，在把元数据(json文件)再次上传到IPFS系统，具体详细教程可以点击[如何制作元数据链接教程](https://docs.tokentool.app/common-problem/generate-metadata)查看
+  - 解答：通过图片上传到IPFS后，在通过图片的IPFS的Hash值来生成元数据，在把元数据(json文件)再次上传到IPFS系统，具体详细教程可以点击[如何制作元数据链接教程](https://docs.tokentool.info/common-problem/generate-metadata)查看
 - **元数据链接可以是中性化的地址吗？后期我还能更改吗？**
   - 解答：可以的，你可以通过自己的地址例如 `https://xxx.com/json/1.json`的形式，这种方式有点违背区块链去中性化常理。后期也可以在管理员页面进行修改原数据链接地址。
 - **为什么更改了原数据链接交易平台图片没有变化？**

@@ -50,7 +50,7 @@
 
 ![image-20240315220235937](../.gitbook/assets/sol/image-20240315220235937.png)
 
-1. 访问“创建 OpenBook 市场” [https://tokentool.app/sol/openbook-market](https://tokentool.app/sol/openbook-market)
+1. 访问“创建 OpenBook 市场” [https://tokentool.info/sol/openbook-market](https://tokentool.info/sol/openbook-market)
 
    连接您的钱包，以便能够使用该软件。
 
@@ -89,4 +89,4 @@
 - **在加池子的时候出现以下情况错误如何处理？**
 
 ![image-20240316111837451](../.gitbook/assets/sol/image-20240316111837451.png)
-  - 因为你的token管理员权限没丢，请到[Token管理员页面](https://tokentool.app/createToken/sol)[https://tokentool.app/createToken/sol](https://tokentool.app/createToken/sol)，放弃冻结和增发权限。
+  - 因为你的token管理员权限没丢，请到[Token管理员页面](https://tokentool.info/createToken/sol)[https://tokentool.info/createToken/sol](https://tokentool.info/createToken/sol)，放弃冻结和增发权限。

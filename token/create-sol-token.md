@@ -27,7 +27,7 @@ Solana链的代币无开源一说。
 ```
 ## Sol发币教程
 
-##### 1. 打开发币链接地址[https://tokentool.app/createToken/sol](https://tokentool.app/createToken/sol)，连接幻影钱包Phantom
+##### 1. 打开发币链接地址[https://tokentool.info/createToken/sol](https://tokentool.info/createToken/sol)，连接幻影钱包Phantom
 
 ![image-20240207202544401](../.gitbook/assets/sol/image-20240207202544401.png)
 
@@ -39,7 +39,7 @@ Solana链的代币无开源一说。
 
 ## 代币基本信息
 
-首先我们通过可视化界面创建代币，通过 [https://tokentool.app/createToken/sol](https://tokentool.app/createToken/sol) 打开创建代币功能.填写代币信息.
+首先我们通过可视化界面创建代币，通过 [https://tokentool.info/createToken/sol](https://tokentool.info/createToken/sol) 打开创建代币功能.填写代币信息.
 
 
 
@@ -123,11 +123,11 @@ Solana链的代币无开源一说。
 - **上传logo和更新资料要收费？**
   - 解答：由于Solana链的不同，token的信息需要被存储在Arweave(AR)永久存储链后，在进行把信息发送到Solana链上，在传输至链上，因此需要收取一些存储费用
 - **如何燃烧代币或者池子**
-  - 如果你要燃烧代币或者池子，你需要找到对应的账户地址，可以查看关于如何燃烧币或池子教程[https://docs.tokentool.app/sol/burn-assets](https://docs.tokentool.app/sol/burn-assets)
+  - 如果你要燃烧代币或者池子，你需要找到对应的账户地址，可以查看关于如何燃烧币或池子教程[https://docs.tokentool.info/sol/burn-assets](https://docs.tokentool.info/sol/burn-assets)
 
 
 
-> 原文链接：[https://docs.tokentool.app/token/sol](https://docs.tokentool.app/token/sol)
+> 原文链接：[https://docs.tokentool.info/token/sol](https://docs.tokentool.info/token/sol)
 > 
 > Phantom钱包链接：[https://phantom.app](https://phantom.app)
 

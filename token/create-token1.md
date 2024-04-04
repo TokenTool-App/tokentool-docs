@@ -28,7 +28,7 @@
 
 ## 代币基本信息
 
-首先我们通过可视化界面创建代币，通过 [https://www.tokentool.app/createToken/eth](https://www.tokentool.app/createToken/eth) 打开创建代币功能.填写代币信息.
+首先我们通过可视化界面创建代币，通过 [https://www.tokentool.info/createToken/eth](https://www.tokentool.info/createToken/eth) 打开创建代币功能.填写代币信息.
 
 ![create token](../.gitbook/assets/Snipaste_2021-10-24_12-49-37.png)
 
@@ -97,7 +97,7 @@
 
 
 
-> 原文链接：[https://docs.tokentool.app/token/create-token](https://docs.tokentool.app/token/create-token)
+> 原文链接：[https://docs.tokentool.info/token/create-token](https://docs.tokentool.info/token/create-token)
 
 >视频教程链接： [https://youtu.be/K0PExlXV0LI](https://youtu.be/K0PExlXV0LI)
 

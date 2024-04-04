@@ -3,7 +3,7 @@
 如何生成一个靓号的合约地址，例如：``0x0000000000004946c0e9f43f4dee607b0ef1fa1c`` 。
 查看以下步骤，了解如何使用PC电脑端通过TokenTool平台的合约靓号生成器，生成靓号合约地址。
 
-1. 打开[靓号合约生成](https://tokentool.app/other/vanityContractGenerator)地址：[https://tokentool.app/other/vanityContractGenerator](https://tokentool.app/other/vanityContractGenerator)
+1. 打开[靓号合约生成](https://tokentool.info/other/vanityContractGenerator)地址：[https://tokentool.info/other/vanityContractGenerator](https://tokentool.info/other/vanityContractGenerator)
 
 2. 输入您要生成的靓号字符串内容 **（温馨提示：在页面加载完成后，建议断开网络或关闭WI-FI离线生成）**
 
@@ -49,13 +49,13 @@
 
 > 引用地址：
 >
-> [https://tokentool.app/other/vanityContractGenerator](https://tokentool.app/other/vanityContractGenerator) 合约靓号生成
+> [https://tokentool.info/other/vanityContractGenerator](https://tokentool.info/other/vanityContractGenerator) 合约靓号生成
 >
-> [https://tokentool.app/createToken/bsc](https://tokentool.app/createToken/bsc) 创建代币V1版本
+> [https://tokentool.info/createToken/bsc](https://tokentool.info/createToken/bsc) 创建代币V1版本
 >
-> [https://tokentool.app/createToken/v2](https://tokentool.app/createToken/v2) 创建代币V2版本
+> [https://tokentool.info/createToken/v2](https://tokentool.info/createToken/v2) 创建代币V2版本
 >
-> [https://tokentool.app/createToken/v3](https://tokentool.app/createToken/v3) 创建代币V3版本
+> [https://tokentool.info/createToken/v3](https://tokentool.info/createToken/v3) 创建代币V3版本
 >
-> [https://tokentool.app/createToken/v4](https://tokentool.app/createToken/v4) 创建代币V4版本
+> [https://tokentool.info/createToken/v4](https://tokentool.info/createToken/v4) 创建代币V4版本
 

@@ -18,7 +18,7 @@
 
 
 
-1. 导航到菜单功能中【[钱包多对多转账](https://tokentool.app/batchTransfer/okt)】功能 [https://tokentool.app/batchTransfer/okt](https://tokentool.app/batchTransfer/okt)
+1. 导航到菜单功能中【[钱包多对多转账](https://tokentool.info/batchTransfer/okt)】功能 [https://tokentool.info/batchTransfer/okt](https://tokentool.info/batchTransfer/okt)
 
 2. 导入发送地址私钥（**注意是私钥0x....格式，不是英文词**）
 3. 导入接收地址(**注意：接收地址是发送的地址，这样就形成了自己个自己转账**)

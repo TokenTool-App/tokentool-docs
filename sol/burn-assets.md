@@ -26,7 +26,7 @@
 
 ### 2、进入SOL管理员操作
 
-- 打开平台SOL发币页面[https://tokentool.app/createToken/sol](https://tokentool.app/createToken/sol)，在菜单中选择销毁菜单，如下图
+- 打开平台SOL发币页面[https://tokentool.info/createToken/sol](https://tokentool.info/createToken/sol)，在菜单中选择销毁菜单，如下图
 
 ![image-20240310005104314](../.gitbook/assets/sol/image-20240310005104314.png)
 
@@ -67,7 +67,7 @@
 
 
 - 可以看到我们钱包地址`Cs4ReAj...` 增加了 6,992,057.9843个 LP Token。
-- `2uYq3LC9K92Fpr8EyH...` 将是我们要查找的 LP地址账户，复制改地址到 SOL发币页面[https://tokentool.app/createToken/sol](https://tokentool.app/createToken/sol)，在菜单中选择销毁菜单。进行以上步骤燃烧。
+- `2uYq3LC9K92Fpr8EyH...` 将是我们要查找的 LP地址账户，复制改地址到 SOL发币页面[https://tokentool.info/createToken/sol](https://tokentool.info/createToken/sol)，在菜单中选择销毁菜单。进行以上步骤燃烧。
 
 
 
